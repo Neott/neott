@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>快速开始Hexo的正确姿势 | 乱码周刊</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" media="screen" type="text/css">
+</head>
+<body>
+<div id="world" class="drop-shadow">
+    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
+<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
+    <div id="content">
+
+    <div class="menu  button">
+        <a href="/">网站首页</a>
+        <span class="arrow">&rsaquo;</span>
+        
+    
+    <a href="/categories/code/">代码笔记</a>
+
+        
+    <span class="arrow">&rsaquo;</span>
+    
+    <a href="/tags/Hexo/">Hexo</a>
+
+    </div>
+    
+    
+          <h1>快速开始Hexo的正确姿势</h1>
+    
+
+    <div class="post">
+        <p>Hexo是很好的文章管理工具，一经使用我已经爱不释手。看过各种Hexo的安装教程之后，本码盲也成功召唤了一头Hexo坐骑，但是回头想想有些教程的内容过分详细、条例不清晰的原因往往也会给新手（包括我）造成出错的麻烦，于是在此梳理一番（本姿势仅适用于Win平台）。</p>
+<h3 id="开始Hexo前的准备工作">开始Hexo前的准备工作</h3>
+<ol>
+<li>本地必备的环境安装：<a href="http://msysgit.github.io/" target="_blank" rel="external">Git</a>和<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a>。</li>
+<li>托管Hexo的<a href="https://github.com/" target="_blank" rel="external">GitHub</a>账号一枚，并建立一个跟用户名一样的repositories，如用户名为jack则为:jack.github.io</li>
+<li>创建连接本地与Github的SSH Key。</li>
+</ol>
+<p>依次安装Git和Node.js后，在任意位置右键选择<code>Git Bash Here</code>，在命令窗口内以下命令来创建SSH Key:</p>
+<figure class="highlight"><pre><div class="line">$ ssh-keygen -t rsa -C <span class="string">"jack@gmail.com"</span>	<span class="comment">//你的邮箱</span></div></pre></figure>
+
+<p>输入这个命令后，凭着小学本科的英语水平你会看出Git系统要求你输入name啊password啊什么的，这时请啪啪啪一路回车，直到你看见由<code>+ + o O *  = S</code> 组成的个图案，说明你创建SSH Key成功了! 打开<code>C:\Users\Administrator\.ssh</code> 发现<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件，前者是私钥，不能泄露给别人，后者是公钥，也是连接GitHub需要的，把<code>id_rsa.pub</code> 内的一堆字母复制到到<a href="https://github.com/settings/ssh" target="_blank" rel="external">Github SSH keys</a>设置页面。完事儿以后先测试一下SSH Key是否能连接到GitHub：</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">$ </span>ssh -<span class="constant">T</span> git<span class="variable">@github</span>.com [yes]</div></pre></figure>
+
+<p>当返回一句Hi balabala的之后，说明你已经顺利勾搭上GitHub了，然后还需要设置一下用户信息，就可以安装Hexo了。</p>
+<figure class="highlight"><pre><div class="line">$ git config --<span class="keyword">global</span> user.name <span class="string">"jack"</span><span class="comment">//用户名</span></div><div class="line">$ git config --<span class="keyword">global</span> user.email  <span class="string">"jack@gmail.com"</span><span class="comment">//你的邮箱</span></div></pre></figure>
+
+<h3 id="安装Hexo">安装Hexo</h3>
+<p>在你需要存放Hexo的文件夹内依次输入以下三个命令，进行<code>安装hexo</code>、<code>初始化Hexo</code>和<code>安装Hexo依赖包</code>。</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">$ </span>npm install -g hexo</div><div class="line"><span class="variable">$ </span>hexo init</div><div class="line"><span class="variable">$ </span>npm install</div></pre></figure>
+
+<p>然后打开根目录下的_config.yml文件，找到<code>deploy:</code>项来配置Hexo。</p>
+<figure class="highlight"><pre><div class="line">deploy:</div><div class="line">  <span class="class"><span class="keyword">type</span>: <span class="title">github</span></span></div><div class="line">  repository: https:<span class="comment">//github.com/jack/jack.github.io.git</span></div><div class="line">  branch: master</div></pre></figure>
+
+<p>现在你的Hexo坐骑已经召唤成功了，呼一口气先，马上就可以坏快的开始Hexo了！</p>
+<h3 id="使用Hexo">使用Hexo</h3>
+<p>如果你也同样不熟悉Git命令，那么就直接把写好的<code>.md</code>格式的文章丢到<code>\source\_posts</code>文件夹吧，当然你需要在这些文章的页头加上Hexo认识的标记，如本文为例，页头标记是这样的:</p>
+<figure class="highlight"><pre><div class="line"><span class="bullet">---</span></div><div class="line">title: 快速开始Hexo的正确姿势	//标题</div><div class="line">date: 2014-12-24		// 日期</div><div class="line">categories: 代码笔记		//文章分类</div><div class="line">tags: Hexo			//文章tags</div><div class="line"><span class="header">permalink: 7			//文章的url别名</span></div><div class="line">---</div></pre></figure>
+
+<p>写好文章以后，还要通过命令使Hexo来生成文章、部署到GitHub，不过这些命令是在是太简单了:</p>
+<figure class="highlight"><pre><div class="line">$ hexo g == hexo generate	<span class="comment">//生成</span></div><div class="line">$ hexo d == hexo deploy		<span class="comment">//部署</span></div><div class="line">$ hexo s == hexo <span class="keyword">server</span>		<span class="comment">//本地预览</span></div></pre></figure>
+
+<p>在以上命令中<code>==</code>符号前面是简写命令，后面是完整命令，一般只需要记住<code>g 、d 、s</code>三个就OK了，如果你想本地预览，在输入命令后，打开网址<code>http://localhost:4000/</code> 就可以过过眼瘾先了。一般的Hexo步骤是：写文章 → 生成 → 部署/预览。如果你不用预览，可以输入<code>hexo d -g</code>直接进行生成部署。</p>
+<h3 id="给Hexo绑定一个域名">给Hexo绑定一个域名</h3>
+<p>绑定域名更是简单，只需在<code>source</code>文件夹添加一个<code>CNAME</code>文件，里面写上你的域名，然后在域名解析那里建立<code>CNAME</code>类型解析到<code>jack.github.io.</code>，稍等片刻，即可通过自己的域名访问。</p>
+<p>本文介绍了如何快速开始使用Hexo的过程，到此，想必在看本文的你已经成功拥有一个Hexo博客了。本文只是基本的Hexo搭建和使用说明，同是新手的我，在以后也会作文分享在Hexo的使用中遇到的各种问题，例如自定义主题、备份文章等知识，希望我们都能快乐的使用Hexo。</p>
+<p>评论模块：</p>
+<figure class="highlight"><pre><div class="line">THEMES:<span class="command">\_</span>config.yml fix duoshuo_short_name: duoshuoname</div><div class="line">THEMES:<span class="command">\layout</span><span class="command">\_</span>partia<span class="command">\article</span>.ejs <span class="special">#</span>25 </div><div class="line"> add &lt;<span class="comment">%- partial('comment') %&gt;</span></div></pre></figure>
+
+
+    </div>
+    <div class="date">2014-12-24</div>
+</div>
+    <div id="foot">&copy; 2014 Naog
+ · <a href="http://hexo.io/" target="_blank">Hexo</a>
+ · <a href="https://github.com/" target="_blank">GitHub</a>
+ · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
+</div>
+    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+</body>
+</html>

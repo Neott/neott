@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Markdown语法备忘录 | 乱码周刊</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" media="screen" type="text/css">
+</head>
+<body>
+<div id="world" class="drop-shadow">
+    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
+<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
+    <div id="content">
+
+    <div class="menu  button">
+        <a href="/">网站首页</a>
+        <span class="arrow">&rsaquo;</span>
+        
+    
+    <a href="/categories/code/">代码笔记</a>
+
+        
+    <span class="arrow">&rsaquo;</span>
+    
+    <a href="/tags/Markdown/">Markdown</a>
+
+    </div>
+    
+    
+          <h1>Markdown语法备忘录</h1>
+    
+
+    <div class="post">
+        <p>常用的写作标记：</p>
+<figure class="highlight"><pre><div class="line">&lt;h1&gt;<span class="keyword">ex</span>&lt;/h1&gt; | #ex  （<span class="number">1</span>~<span class="number">6</span>个#对应H1~H6）</div><div class="line">&lt;<span class="keyword">em</span>&gt;<span class="keyword">ex</span>&lt;/<span class="keyword">em</span>&gt; | *<span class="keyword">ex</span>* | _ex_</div><div class="line">&lt;strong&gt;<span class="keyword">ex</span>&lt;/strong&gt; | **<span class="keyword">ex</span>** | __ex__</div></pre></figure>
+
+<p>如果 * 和 _ 两边都有空白则作普通符号，如果要在文字前后直接插入普通的星号或底线，你可以用反斜线：</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">&lt;p&gt;</span><span class="keyword">*</span>Someone<span class="keyword">*</span> like you.<span class="variable">&lt;/p&gt;</span></div><div class="line">	&gt;code:  \<span class="keyword">*</span>Someone\<span class="keyword">*</span> like you.</div></pre></figure>
+
+<p>各种链接的转换,省略了url中的<code>http://</code>。</p>
+<figure class="highlight"><pre><div class="line">&lt;a <span class="variable">href=</span><span class="string">"ex.com"</span>&gt;EX&lt;/a&gt;</div><div class="line">	&gt;code:  [ex](ex.com)</div><div class="line">    	&lt;a <span class="variable">href=</span><span class="string">"ex.com"</span>&gt;ex.com&lt;/a&gt;</div><div class="line">        	&gt;code:  &lt;ex.com&gt;</div><div class="line">&lt;img <span class="variable">src=</span><span class="string">"http://www.ex.com/img.jpg"</span> <span class="variable">alt=</span><span class="string">"LOGO"</span>&gt;</div><div class="line">	&gt;code: ![LOGO](http://www.ex.com/img.jpg)</div><div class="line">        &lt;img <span class="variable">src=</span><span class="string">"http://www.ex.com/img.jpg"</span> <span class="variable">alt=</span><span class="string">"LOGO"</span> <span class="variable">title=</span><span class="string">"LOGO"</span>&gt;</div><div class="line">            &gt;code:  ![LOGO](http://www.ex.com/img.jpg <span class="string">"LOGO"</span>)</div><div class="line">&lt;a <span class="variable">href=</span><span class="string">"http://ex.com"</span>&gt;&lt;img <span class="variable">src=</span><span class="string">"http://www.ex.com/img.jpg"</span> <span class="variable">alt=</span><span class="string">"LOGO"</span>&gt;&lt;/a&gt;</div><div class="line">	&gt;code:  [![LOGO](http://www.ex.com/img.jpg)](http://ex.com)</div></pre></figure>
+
+<p>Markdown语法无法定义图片尺寸，但是可以直接写入HTML语言，以此来定义图片尺寸、链接中的target属性、视频（优酷的一个例子）等：</p>
+<figure class="highlight"><pre><div class="line">&lt;a <span class="variable">href=</span><span class="string">"ex.com"</span> <span class="variable">target=</span><span class="string">"_blank"</span>&gt;EX&lt;/a&gt;</div><div class="line">	&lt;a <span class="variable">href=</span><span class="string">"ex.com"</span> <span class="variable">target=</span><span class="string">"_blank"</span> <span class="variable">class=</span><span class="string">"style"</span>&gt;EX&lt;/a&gt;</div><div class="line">&lt;img <span class="variable">src=</span><span class="string">"http://www.ex.com/img.jpg"</span> <span class="variable">alt=</span><span class="string">"LOGO"</span> <span class="variable">width=</span><span class="string">"270"</span> <span class="variable">height=</span><span class="string">"129"</span>&gt;</div><div class="line">&lt;embed <span class="variable">src=</span><span class="string">"http://player.youku.com/player.php/sid/XNDgzMTI4MjQ0/v.swf"</span> <span class="variable">allowFullScreen=</span><span class="string">"true"</span> <span class="variable">quality=</span><span class="string">"high"</span> <span class="variable">width=</span><span class="string">"632"</span> <span class="variable">height=</span><span class="string">"527"</span> <span class="variable">align=</span><span class="string">"middle"</span> <span class="variable">allowScriptAccess=</span><span class="string">"always"</span> <span class="variable">type=</span><span class="string">"application/x-shockwave-flash"</span>&gt;&lt;/embed&gt;</div></pre></figure>
+
+<p>在代码片段中， <code>′′′</code>内的语句只用来展示，不会执行。language是声明语言的标记，可以使<code>′′′</code>、CSS、MARKDOWN任意语言。也可以用4个空格或1个Tab代替：</p>
+<figure class="highlight"><pre><div class="line">&lt;pre&gt;</div><div class="line"> &lt;code&gt;</div><div class="line">  &lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"exclass"</span>&gt;This <span class="keyword">is</span> code&lt;/<span class="keyword">div</span>&gt;</div><div class="line"> &lt;/code&gt;</div><div class="line">&lt;/pre&gt;</div><div class="line"><span class="comment">------------------------------------------------</span></div><div class="line">′′′language</div><div class="line"> &lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"exclass"</span>&gt;This <span class="keyword">is</span> code&lt;/<span class="keyword">div</span>&gt;</div><div class="line">′′′</div></pre></figure>
+
+<p>当需要在文章中使用一句短代码的时候。使用 <code>′</code> 或 <code>′′</code> ,或者直接用 <code>&lt;code&gt;</code> ：</p>
+<figure class="highlight"><pre><div class="line">&lt;p&gt;Just blockqute <span class="literal">a</span> &lt;code&gt;Short code&lt;/code&gt; example&lt;/p&gt;</div><div class="line">--------------------------------------------------------</div><div class="line">    Just blockqute <span class="literal">a</span> <span class="escape">`S</span>hort code<span class="escape">` </span>example</div><div class="line">	<span class="literal">or</span></div><div class="line">    Just blockqute <span class="literal">a</span> <span class="escape">``</span>Short code<span class="escape">``</span> example</div><div class="line">	<span class="literal">or</span></div><div class="line">    Just blockqute <span class="literal">a</span> &lt;code&gt;Short code&lt;/code&gt; example</div></pre></figure>
+
+<p>引用 Blockquotes  段首加 <code>&gt;</code>，引用内可用其他的markdown语法：</p>
+<figure class="highlight"><pre><div class="line">&lt;blockquote&gt;</div><div class="line"><span class="code">	&lt;p&gt;Blockquotes something&lt;/p&gt;</span></div><div class="line"><span class="header">&lt;/blockquote&gt;</span></div><div class="line">---------------------------------</div><div class="line">&gt;Blockquotes something</div></pre></figure>
+
+<p>无序的 <code>ul</code>、<code>li</code> 列表，段首用 <code>*</code>、<code>+</code>、<code>-</code>，后跟一个 <code>空格</code>:</p>
+<figure class="highlight"><pre><div class="line">&lt;ul&gt;</div><div class="line"><span class="code"> &lt;li&gt;List 1&lt;/li&gt;</span></div><div class="line"><span class="code"> &lt;li&gt;List 2&lt;/li&gt;</span></div><div class="line"><span class="code"> &lt;li&gt;List&lt;/li&gt;</span></div><div class="line"><span class="header">&lt;/ul&gt;</span></div><div class="line">--------------------</div><div class="line"><span class="bullet">* </span>List 1</div><div class="line">+ List 2</div><div class="line"><span class="bullet">- </span>List 3</div></pre></figure>
+
+<p>带上1.2.3.的有序的 <code>&lt;ol&gt;</code>、<code>&lt;li&gt;</code> 列表，则在开头使用 <code>数字</code>+ 句点<code>.</code> + <code>空格</code>：</p>
+<figure class="highlight"><pre><div class="line">&lt;ol&gt;</div><div class="line"><span class="code"> &lt;li&gt;List 1&lt;/li&gt;</span></div><div class="line"><span class="code"> &lt;li&gt;List 2&lt;/li&gt;</span></div><div class="line"><span class="code"> &lt;li&gt;List&lt;/li&gt;</span></div><div class="line"><span class="header">&lt;/ol&gt;</span></div><div class="line">--------------------</div><div class="line">1. List 1</div><div class="line">2. List 2</div><div class="line">3. List 3</div></pre></figure>
+
+<p>如果列表项目间用空行，在输出<code>′′′</code>时Markdown就会将项目内容用 <code>&lt;p&gt;</code> 标签包起来，举例来说：</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">&lt;ul&gt;</span></div><div class="line">    <span class="variable">&lt;li&gt;</span><span class="variable">&lt;p&gt;</span>Bird<span class="variable">&lt;/p&gt;</span><span class="variable">&lt;/li&gt;</span></div><div class="line">    <span class="variable">&lt;li&gt;</span><span class="variable">&lt;p&gt;</span>Magic<span class="variable">&lt;/p&gt;</span><span class="variable">&lt;/li&gt;</span></div><div class="line"><span class="variable">&lt;/ul&gt;</span></div><div class="line">-------------------------</div><div class="line"><span class="keyword">*</span> list 1</div><div class="line">　</div><div class="line"><span class="keyword">*</span> list 2</div></pre></figure>
+
+
+    </div>
+    <div class="date">2014-11-16</div>
+</div>
+    <div id="foot">&copy; 2014 Naog
+ · <a href="http://hexo.io/" target="_blank">Hexo</a>
+ · <a href="https://github.com/" target="_blank">GitHub</a>
+ · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
+</div>
+    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+</body>
+</html>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[乱码周刊]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://xote.tk/"/>
+  <updated>2015-03-22T15:29:51.921Z</updated>
+  <id>http://xote.tk/</id>
+  
+  <author>
+    <name><![CDATA[Naog]]></name>
+    
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Windows常用软件目录]]></title>
+    <link href="http://xote.tk/14.html"/>
+    <id>http://xote.tk/14.html</id>
+    <published>2015-03-22T13:01:59.000Z</published>
+    <updated>2015-03-22T15:16:23.525Z</updated>
+    <content type="html"><![CDATA[<p><code>本文长期不定时更新</code>：作为身边朋友们的“电脑高手”，除了能随时搞定故障快速装系统之外，还需“涉软甚广”来提升逼格，本着<code>小巧、实用、高效</code>的原则，这里记录一下我经常使用的软件们。</p>
+<h3 id="文字编辑">文字编辑</h3>
+<ul>
+<li><a href="http://cn.everedit.net/" target="_blank" rel="external">EverEdit</a>：顶级文本编辑器（强烈推荐），替代系统记事本，支持众多语言。</li>
+<li><a href="https://github.com/superRaytin/Rock_Markdown" target="_blank" rel="external">Rock! MarkDown</a>：快速的markdown文档编辑器。</li>
+<li><a href="https://github.com/kchanzen/Miu" target="_blank" rel="external">Miu</a>：Windows版的<a href="http://25.io/mou/" target="_blank" rel="external">Mou</a>，用于编辑markdown文档。</li>
+</ul>
+<h3 id="上网工具">上网工具</h3>
+<ul>
+<li><a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html" target="_blank" rel="external">Chrome</a>：Google出品最佳浏览器，没有之一。</li>
+<li><a href="http://www.shuax.com/archives/ChromeUpdater.html" target="_blank" rel="external">ChromeUpdater</a>：用于制作绿色版的Chrome浏览器。</li>
+<li><a href="http://www.admflt.com/" target="_blank" rel="external">阿呆喵</a>：网页广告屏蔽利器，同类软件中的最佳产品。</li>
+<li><a href="https://github.com/goagent/goagent" target="_blank" rel="external">Goagent</a>：科学上网，不多解释。</li>
+</ul>
+<h3 id="图像影音">图像影音</h3>
+<ul>
+<li><a href="http://potplayer.daum.net/?lang=zh_CN" target="_blank" rel="external">PotPlayer</a>：姜龙喜思密达出品，强大的内置解码器的全能影音播放器。</li>
+<li><a href="http://music.163.com/" target="_blank" rel="external">网易云音乐</a>：网易出品高品质云音乐平台，跨IOS/Android/Win全平台支持，业界良心。</li>
+<li><a href="http://perkele.cc/software/boom" target="_blank" rel="external">Boom</a>：foobar2000的小白版，仅仅播放音乐来说，绝对够用。</li>
+<li><a href="https://www.baidu.com/s?wd=FSCapture&amp;ie=utf-8?tn=baidulocal" target="_blank" rel="external">FastStone Screen Capture</a>：小巧且功能强大的快捷截图工具，还能录制视频。</li>
+<li><a href="http://bbs.kafan.cn/thread-1169075-1-1.html" target="_blank" rel="external">Picasa Photo Viewer</a>：从Google Picasa中提取的图片浏览器。</li>
+</ul>
+<h3 id="系统增强">系统增强</h3>
+<ul>
+<li><a href="http://candy-sky.net/tag/mactype/" target="_blank" rel="external">Mactype</a>：非装不可！字体渲染引擎，能使文字显示得更清晰、更有立体感。</li>
+<li><a href="http://www.listary.com/" target="_blank" rel="external">Listary</a>：快速启动、文件搜索、智能中文匹配，让windows更具效率。</li>
+<li><a href="http://www.voidtools.com/" target="_blank" rel="external">Everything</a>：本地磁盘搜索神器，一秒到达所搜文件，还是区域网共享利器。</li>
+<li><a href="http://www.bandisoft.com/bandizip/cn/" target="_blank" rel="external">Bandizip</a>：轻巧、快速、免费的压缩软件。</li>
+<li><a href="http://www.softwareok.com/?seite=Freeware/Q-Dir" target="_blank" rel="external">Q-Dir</a>：轻量级多窗口增强文件管理器。</li>
+<li><a href="http://www.iobit.com/iobit-unlocker.html" target="_blank" rel="external">IObit Unlocker</a>：右键解锁器，一间接触文件锁定。</li>
+<li><a href="http://www.easersoft.com/" target="_blank" rel="external">ExtremeCopy</a>：更强劲的复制粘贴工具，最快比系统自带的速度提升120%。</li>
+</ul>
+<h3 id="系统维护">系统维护</h3>
+<ul>
+<li><a href="http://www.crystalidea.com/uninstall-tool" target="_blank" rel="external">Uninstall Tool</a>：软件卸载利器，彻底清扫残留垃圾。</li>
+<li><a href="http://www.piriform.com/ccleaner" target="_blank" rel="external">CCleaner</a>：胖梨三剑客之一：windows平台最佳扫描清理工具。</li>
+<li><a href="http://www.piriform.com/defraggler" target="_blank" rel="external">Defraggler</a>：胖梨三剑客之二：windows平台最佳碎片整理工具。</li>
+<li><a href="http://www.piriform.com/recuva" target="_blank" rel="external">Recuva</a>：胖梨三剑客之一：windows平台最佳文件找回工具。</li>
+<li><a href="http://www.sordum.org/7952/dns-jumper-v1-0-6/" target="_blank" rel="external">Dns Jumper</a>：DNS快捷管理。</li>
+<li><a href="http://www.chuyu.me/thread-510-1-1.html" target="_blank" rel="external">Dism++</a>：备份/清理系统组件垃圾工具。</li>
+<li><a href="http://guanjia.qq.com/" target="_blank" rel="external">腾讯电脑管家</a>：给裸奔的电脑一点安慰。</li>
+</ul>
+<h3 id="未分类特色软件">未分类特色软件</h3>
+<ul>
+<li><a href="http://qq.pinyin.cn/" target="_blank" rel="external">QQ拼音纯净版</a>：虽然已卖给搜狗，目前为止仍是Win平台最简洁输入法。</li>
+<li><a href="http://www.freedownloadmanager.org/" target="_blank" rel="external">Free Download Manager</a>：开源下载工具。</li>
+<li><a href="http://imarqs.com/programs.html?display=filetime" target="_blank" rel="external">FileTime</a>：重设文件的创建/修改/最近访问时间。</li>
+<li><a href="http://www.bahraniapps.com/" target="_blank" rel="external">GifCam</a>：录制动态gif图像的小工具。</li>
+<li><a href="http://www.comicer.com/stronghorse/software/index.htm#FindDupFile" target="_blank" rel="external">FindDupFile</a>：查找重复文件。</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><code>本文长期不定时更新</code>：作为身边朋友们的“电脑高手”，除了能随时搞定故障快速装系统之外，还需“涉软甚广”来提升逼格，本着<code>小巧、实用、高效</code>的原则，这里记录一下我经常使用的软件们。</p>
+<h3 id="文字编辑">文字编辑</]]>
+    </summary>
+    
+      <category term="Windows" scheme="http://xote.tk/tags/Windows/"/>
+    
+      <category term="善用佳软" scheme="http://xote.tk/categories/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo Tips 持续贴]]></title>
+    <link href="http://xote.tk/13.html"/>
+    <id>http://xote.tk/13.html</id>
+    <published>2015-03-12T16:00:00.000Z</published>
+    <updated>2015-03-18T14:02:54.647Z</updated>
+    <content type="html"><![CDATA[<p>Hexo 3.0 Bug 略多，降级到2.8：</p>
+<figure class="highlight"><pre><div class="line">npm uninstall hexo hexo-cli hexo-server hexo-generator-index hexo-generator-archive hexo-generator-category hexo-generator-tag hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-renderer-marked hexo-renderer-stylus</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install -g hexo<span class="comment">@2.8.3</span></div><div class="line">hexo init</div><div class="line">npm install</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">卸载高版本插件&安装指定版本插件</div><div class="line">npm uninstall hexo-renderer-ejs hexo-renderer-marked hexo-renderer-stylus</div><div class="line">npm install hexo-renderer-ejs<span class="comment">@0.1.0 hexo-renderer-marked@0.1.0 hexo-renderer-stylus@0.1.0 hexo-generator-feed@0.2.1 hexo-generator-sitemap@0.2.0</span></div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install hexo-gzip</div></pre></figure>
+
+
+
+<p>Hexo更新到了3.0版本，较以往的使用上出现了个别问题，在<a href="/hexo-start.html#安装Hexo">快速开始Hexo的正确姿势</a>中的三依次命令，改为:</p>
+<figure class="highlight"><pre><div class="line">npm <span class="operator"><span class="keyword">install</span> hexo-cli -g</span></div><div class="line">npm <span class="keyword">install</span> hexo <span class="comment">--save</span></div><div class="line">hexo init</div><div class="line">npm <span class="keyword">install</span></div></pre></figure>
+
+<p>然后安装常用插件与配置:</p>
+<figure class="highlight"><pre><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-generator-index --save</div><div class="line">npm install hexo-generator-archive --save</div><div class="line">npm install hexo-generator-category --save</div><div class="line">npm install hexo-generator-tag --save</div><div class="line">npm install hexo-deployer-git --save</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install hexo-deployer-heroku --save</div><div class="line">npm install hexo-deployer-rsync --save</div><div class="line">npm install hexo-deployer-openshift --save</div></pre></figure>
+
+<p>换行符的问题:</p>
+<figure class="highlight"><pre><div class="line">hexo warning: LF will be replaced <span class="keyword">by</span> <span class="constant">CRLF</span> <span class="operator">in</span> XXX.</div><div class="line">解决方法：</div><div class="line">git config <span class="comment">--global core.autocrlf false</span></div></pre></figure>
+
+<p>index.lock问题:</p>
+<figure class="highlight"><pre><div class="line">fatal: Unable to <span class="operator"><span class="keyword">create</span> ‘/.git/<span class="keyword">index</span>.<span class="keyword">lock</span>’: File <span class="keyword">exists</span>.</span></div><div class="line">解决方法：</div><div class="line">rm -f <span class="keyword">index</span>.<span class="keyword">lock</span></div></pre></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Hexo 3.0 Bug 略多，降级到2.8：</p>
+<figure class="highlight"><pre><div class="line">npm uninstall hexo hexo-cli hexo-server hexo-generator-index]]>
+    </summary>
+    
+      <category term="Hexo" scheme="http://xote.tk/tags/Hexo/"/>
+    
+      <category term="代码笔记" scheme="http://xote.tk/categories/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[禁止视频网站使用Flash上传]]></title>
+    <link href="http://xote.tk/12.html"/>
+    <id>http://xote.tk/12.html</id>
+    <published>2015-03-07T16:00:00.000Z</published>
+    <updated>2015-03-18T14:51:47.697Z</updated>
+    <content type="html"><![CDATA[<p>方法1：控制面板 - Flash Player - 播放 - <code>阻止所有站点使用对等协助网络</code>。</p>
+<p>方法2： 打开<a href="http://www.macromedia.com/support/documentation/cn/flashplayer/help/settings_manager09.html" target="_blank" rel="external">这个网址</a>勾选<code>对所有用户禁用P2P上行链</code>。</p>
+<p>方法3：在CMD中依次输入以下命令:</p>
+<figure class="highlight"><pre><div class="line">echo <span class="constant">RTMFPP2PDisable</span>=<span class="number">1</span> <span class="input">&gt;&gt; %windir%\system32\<span class="constant">Macromed</span>\<span class="constant">Flash</span>\mms.cfg</span></div><div class="line">echo <span class="constant">RTMFPP2PDisable</span>=<span class="number">1</span> <span class="input">&gt;&gt; %windir%\syswow64\<span class="constant">Macromed</span>\<span class="constant">Flash</span>\mms.cfg</span></div><div class="line">echo <span class="constant">RTMFPP2PDisable</span>=<span class="number">1</span> <span class="input">&gt;&gt; %windir%\system32\mms.cfg</span></div></pre></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>方法1：控制面板 - Flash Player - 播放 - <code>阻止所有站点使用对等协助网络</code>。</p>
+<p>方法2： 打开<a href="http://www.macromedia.com/support/documentation/cn/fla]]>
+    </summary>
+    
+      <category term="Flash" scheme="http://xote.tk/tags/Flash/"/>
+    
+      <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的Chrome浏览器相关配置]]></title>
+    <link href="http://xote.tk/11.html"/>
+    <id>http://xote.tk/11.html</id>
+    <published>2015-01-29T16:00:00.000Z</published>
+    <updated>2015-03-18T14:56:55.125Z</updated>
+    <content type="html"><![CDATA[<p>本人是Chrome重度用户，这里贴一下Chrome的相关配置，以防日后丢失数据后可方便找回。</p>
+<h3 id="chrome://flags/">chrome://flags/</h3>
+<ul>
+<li>启用 停用DirectWrite Windows (mactype渲染)</li>
+<li>启用 实验性 QUIC 协议</li>
+<li>启用 启用SPDY/4</li>
+</ul>
+<h3 id="Chrome强制http定向到https">Chrome强制http定向到https</h3>
+<p>打开到<code>chrome://net-internals/#hsts</code> 在Add Domain 项的Domain中写入域名，同时勾选<code>Include subdomains for STS/KPK</code> 然后Add即可，删除域名就在下面的Delete Domain中写入并Delete</p>
+<h3 id="Tampermonkey脚本">Tampermonkey脚本</h3>
+<ul>
+<li><a href="https://greasyfork.org/zh-CN/scripts/7152-baidusearchnojump-modify-by-ted423" target="_blank" rel="external">BaiduSearchNoJump modify</a></li>
+<li><a href="http://tiansh.github.io/us-else/zhihu_visitor/" target="_blank" rel="external">知乎免登录</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/3193-%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B" target="_blank" rel="external">数据银行下载助手</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/986-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E5%8A%A9%E6%89%8B" target="_blank" rel="external">百度网盘助手</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/483-%E7%99%BE%E5%BA%A6%E9%9F%B3%E4%B9%90%E5%8A%A9%E6%89%8B" target="_blank" rel="external">百度音乐助手</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/2248-%E7%99%BE%E5%BA%A6%E9%9F%B3%E4%B9%90%E7%9B%92%E5%8E%BB%E5%B9%BF%E5%91%8A" target="_blank" rel="external">百度音乐盒去广告</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/5999-%E8%A7%A3%E9%99%A4%E8%B4%B4%E5%90%A7%E5%BF%85%E9%9C%80%E7%99%BB%E5%BD%95%E6%89%8D%E8%83%BD%E6%B5%8F%E8%A7%88%E7%9A%84%E9%99%90%E5%88%B6" target="_blank" rel="external">解除贴吧必需登录才能浏览的限制</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/987-%E8%99%BE%E7%B1%B3%E9%9F%B3%E4%B9%90%E5%8A%A9%E6%89%8B" target="_blank" rel="external">虾米音乐助手</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/2600-%E8%B7%B3%E8%BF%87%E7%BD%91%E7%AB%99%E7%AD%89%E5%BE%85-%E9%AA%8C%E8%AF%81%E7%A0%81%E5%8F%8A%E7%99%BB%E5%BD%95" target="_blank" rel="external">Bypass Wait, Code &amp; Login on Websites</a></li>
+</ul>
+<h3 id="Chrome扩展">Chrome扩展</h3>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/enable-copy/lmnganadkecefnhncokdlaohlkneihio?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Enable Copy</a> 解除右键限制</li>
+<li><a href="https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Google Keep</a> 记事和清单</li>
+<li><a href="https://chrome.google.com/webstore/detail/hehijbfgiekmjfkfjpbkbammjbdenadd?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">IE Tab</a> IE内核模式</li>
+<li><a href="https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">LastPass</a> 密码管理</li>
+<li><a href="https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Proxy SwitchyOmega</a> 代理切换</li>
+<li><a href="https://chrome.google.com/webstore/detail/ggllcioagamdajojjpjanhhbdknngbdh?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">QQ收藏</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/kpampjmfiopfpkkepbllemkibefkiice?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Replace Google CDN</a> Google CDN转向</li>
+<li><a href="https://chrome.google.com/webstore/detail/lcfiapjcgfnalnpmgfoebehefdeekado?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">scroll style</a> 顺滑滚动蓝</li>
+<li><a href="https://chrome.google.com/webstore/detail/stash/bnhjedgfogckebfhnlicnkbdjlmpibck?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Stash</a> 暂存标签页</li>
+<li><a href="https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Tampermonkey</a> 油猴脚本</li>
+<li><a href="https://chrome.google.com/webstore/detail/text-url-linker/aegfbpchoheaflicfmggkmlmcccpjpgd?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Text URL Linker</a> 转换网址成超链接</li>
+<li><a href="https://chrome.google.com/webstore/detail/cibnlngbgpkcmbiilfdeekaojmfhimag?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">v2ex.ext</a> V2EX专享</li>
+<li><a href="https://chrome.google.com/webstore/detail/jjeknnigbkhhilfjhoijbddeaihdpmdi?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Happy YaHei</a> 强制雅黑</li>
+<li><a href="https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad/support" target="_blank" rel="external">划词翻译</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/lapoiohkeidniicbalnfmakkbnpejgbi?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">支付宝安全插件</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E8%AF%86%E5%9B%BE/ckphchjljlekndhjifdfpmmnlaijimcd?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">百度识图</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/alelhddbbhepgpmgidjdcjakblofbmce?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">网页截图:注释&amp;批注</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/%E8%BF%85%E9%9B%B7%E3%80%81%E5%BF%AB%E8%BD%A6%E3%80%81%E6%97%8B%E9%A3%8E%E4%B8%93%E7%94%A8%E9%93%BE%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E7%BB%BF%E8%89%B2%E7%89%88/keoppklbljbnecjcpehjlmdcdibpdclf?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">迅雷、快车、旋风专用链自动转换绿色版</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>本人是Chrome重度用户，这里贴一下Chrome的相关配置，以防日后丢失数据后可方便找回。</p>
+<h3 id="chrome://flags/">chrome://flags/</h3>
+<ul>
+<li>启用 停用DirectWrite Windows (macty]]>
+    </summary>
+    
+      <category term="Chrome" scheme="http://xote.tk/tags/Chrome/"/>
+    
+      <category term="善用佳软" scheme="http://xote.tk/categories/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[摆脱宽带运营商的劫持]]></title>
+    <link href="http://xote.tk/10.html"/>
+    <id>http://xote.tk/10.html</id>
+    <published>2015-01-28T16:00:00.000Z</published>
+    <updated>2015-03-18T14:51:56.013Z</updated>
+    <content type="html"><![CDATA[<p>宽带运营商对用户的劫持已经到了令人发指地步，目前我所在的宽带环境时刻出现的劫持行为有，DNS劫持和对百度搜索结果干预加尾巴的方式。对于DNS劫持最直接的办法就是其他的公用DNS，但目前在遇到无法解析域名的时候似乎不怎么奏效，干脆在HOSTS文件中屏蔽吧：</p>
+<figure class="highlight"><pre><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror1.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror2.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror3.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror4.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror5.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror6.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror7.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror8.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror9.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div></pre></figure>
+
+<p>第二种是对百度搜索结果的干预行为，会在结果的URL后加入一个类似tn=9541254的尾巴，造成搜索结果闪一下的情况，通过抓包工具发现了罪魁祸首来自于这个URL：<code>http://192.253.224.172:8014/d2/s.ashx</code> ，之前曾经在路由器中或者防火墙中屏蔽了这个IP，但现在似乎劫持升级了，两种方法均已失效，目前只能在<code>IP安全策略</code>中阻止这个IP的访问。</p>
+<p>首先打开到（win8.1）控制面板—管理工具—本地安全策略。</p>
+<p>在<code>IP安全策略，在本地计算机</code>项右键选择<code>管理IP筛选器列表和筛选器操作</code>。在<code>管理IP筛选器列表</code>项中添加规则，弹出窗口中名称随意如联通劫持，再按当前页添加，源地址选择<code>一个特定的IP地址或子网</code>，在下面填上抓包到的IP<code>192.253.224.172</code>，下面目标地址，选<code>我的IP地址</code>，镜像去勾。返回<code>筛选器操作</code>项，添加新筛选器，安全方法为阻止，常规中名称也为阻止，方便辨认。然后就可以关闭这个选项卡。</p>
+<p>再在<code>IP安全策略，在本地计算机</code>项右键选择<code>创建IP安全策略</code>，名称填写<code>阻止劫持</code>，一路下一步，到编辑属性窗口，点击添加，分别在IP筛选器列表/筛选器操作中点选上一步建立的<code>联通劫持</code>和<code>阻止</code>。返回属编辑窗口在规则前打勾并确定。</p>
+<p>这时<code>IP安全策略，在本地计算机</code>下就有了一个<code>阻止劫持</code>的项，里面的规则都是刚才两步已经设置好的，只需在上面右键点选分配即可完成所有操作，这时，再次使用百度搜索的时候，被强制加上的小尾巴已经不见了。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>宽带运营商对用户的劫持已经到了令人发指地步，目前我所在的宽带环境时刻出现的劫持行为有，DNS劫持和对百度搜索结果干预加尾巴的方式。对于DNS劫持最直接的办法就是其他的公用DNS，但目前在遇到无法解析域名的时候似乎不怎么奏效，干脆在HOSTS文件中屏蔽吧：</p>
+<figu]]>
+    </summary>
+    
+      <category term="劫持" scheme="http://xote.tk/tags/%E5%8A%AB%E6%8C%81/"/>
+    
+      <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[把Hexo同时部署到GitHub和GitCafe]]></title>
+    <link href="http://xote.tk/9.html"/>
+    <id>http://xote.tk/9.html</id>
+    <published>2015-01-06T16:00:00.000Z</published>
+    <updated>2015-03-18T13:45:49.613Z</updated>
+    <content type="html"><![CDATA[<p>今天又把Hexo折腾了一下，让其可以同时部署到国外的GitHub和国内的Gitcafe，等于是在国内增加了一个镜像，再通过DNSPod智能解析域名，让电信联通教育网的用户访问到托管在GitCafe的Hexo，否则访问到GitHub，一是优化了在国内的速度，二是给数据增加多一个备份。</p>
+<p>实现这个功能首先要在GitCafe获得一个帐号（使用的用户名和邮箱最好与GitHub的一致），添加SSH Key，建立与用户名一样的<code>repo</code>，可以参见之前的小文：<a href="/7.html">快速开始Hexo的正确姿势</a>，其次，我们需要修改Hexo仓库根目录下的<code>_config.yml</code>文件，打开并拉到最后，修改成这个样子（在GitCafe中，需要注意大小写）:</p>
+<figure class="highlight"><pre><div class="line">deploy:</div><div class="line">  <span class="class"><span class="keyword">type</span>: <span class="title">git</span></span></div><div class="line">  repo:</div><div class="line">    github: https:<span class="comment">//github.com/jack/jack.github.io.git,master</span></div><div class="line">    gitcafe: https:<span class="comment">//gitcafe.com/jack/jack.git,gitcafe-pages</span></div></pre></figure>
+
+<p>随后执行<code>hexo d -g</code>生成部署命令的时候，数据就会自动部署到两家平台，这时候，你的GitCafe版的Hexo地址是<code>jack.gitcafe.io</code>。尝试这分别<code>ping</code>一下两家平台提供的二级域名，会发现GitCafe确实比GitHub快了许多。为了让它自动选择平台，需要在<a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSPod</a>相应的域名管理页，分别设置两种八项解析记录，：</p>
+<center><a href="http://dn-xair.qbox.me/img/00801.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00801.png" alt="域名解析设置"></a><br>域名解析设置</center>
+
+<p>其中，GitHub指向的记录值为<code>nusername.github.io.</code>，而GitCafe需要在项目设置中添加自定义域名，解析里指向<code>gitcafe.io.</code>，这里不推荐直接绑定IP，因为用<code>CNAME</code>的方式，两个平台会根据用户位置而自动分配链接到最近的服务器，以保证页面是最快速度呈现，这也算是同时使用了两个平台的CDN吧。</p>
+<p>PS.既然已经把Hexo同时部署到了两个Git平台，那么顺便说说如何把Hexo同时备份到两个平台，打开目录文件<code>.git\config</code>，添加以下代码：</p>
+<figure class="highlight"><pre><div class="line">[remote <span class="string">"all"</span>]</div><div class="line">	url = http<span class="variable">s:</span>//github.<span class="keyword">com</span>/jack/jack.git</div><div class="line">	url = http<span class="variable">s:</span>//gitcafe.<span class="keyword">com</span>/jack/jack.git</div></pre></figure>
+
+<p>在以后需要<code>push</code>备份的时候，只需要执行<code>push all master</code>就会同时备份到两家平台，多了一份保障。</p>
+<p>如果觉得每次部署的时候都要输入用户名和密码，可以这样解决：在<code>C:\Users\Administrator</code>目录下新建一个<code>_netrc</code>文件，在里面写上:</p>
+<figure class="highlight"><pre><div class="line">machine github.com</div><div class="line">login <span class="literal">user</span></div><div class="line">password userpassword</div><div class="line">machine gitcafe.com</div><div class="line">login <span class="literal">user</span></div><div class="line">password userpassword</div></pre></figure>
+
+<p>此后再部署的时候，就不需要再输入两家的用户和密码了。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天又把Hexo折腾了一下，让其可以同时部署到国外的GitHub和国内的Gitcafe，等于是在国内增加了一个镜像，再通过DNSPod智能解析域名，让电信联通教育网的用户访问到托管在GitCafe的Hexo，否则访问到GitHub，一是优化了在国内的速度，二是给数据增加多一]]>
+    </summary>
+    
+      <category term="Hexo" scheme="http://xote.tk/tags/Hexo/"/>
+    
+      <category term="代码笔记" scheme="http://xote.tk/categories/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo的备份和恢复]]></title>
+    <link href="http://xote.tk/8.html"/>
+    <id>http://xote.tk/8.html</id>
+    <published>2015-01-02T16:00:00.000Z</published>
+    <updated>2015-03-18T13:45:43.927Z</updated>
+    <content type="html"><![CDATA[<p>在2015年的第一天，我寻思给电脑也清理一下过个元旦吧，然后就手欠把主板CPU针脚干断两根，推到一片，主板送修后把硬盘接到了家用的另外一台电脑，恰遇如何备份和恢复Hexo的问题，这里便记录一下这个情况，高手可以直接无视。</p>
+<h3 id="备份Hexo的两种方式">备份Hexo的两种方式</h3>
+<p>第一种方式比较简单，直接把Hexo的文件夹放进Dropbox或其他同步盘里，在重装系统或另外一台电脑同步下来就行了。</p>
+<p>第二种方式是备份到Github，这就需要费点周折了，不过这也是学习Git命令的好机会。首先需要在GitHub建立一个新的仓库，如Hexo。在本地的Hexo文件夹里执行Git命令：</p>
+<figure class="highlight"><pre><div class="line">$ git init <span class="comment"> //初始化仓库</span></div><div class="line">$ git remote <span class="built_in">add</span> origin <span class="keyword">https</span>://github.com/jack/hexo.git <span class="comment"> //关联远程仓库</span></div><div class="line">$ git <span class="built_in">add</span> . <span class="comment"> //添加所有文件到缓存</span></div><div class="line">$ git commit -m <span class="string">"add all file"</span><span class="comment"> //提交"说明"</span></div><div class="line">$ git push -u origin master <span class="comment"> //第一次推送到远端仓库</span></div></pre></figure>
+
+<p>这是第一次备份整个Hexo文件夹到GitHub的命令集合（根目录下有个.gitignore文件，里面每行的文件或文件夹都是不会提交到Git的，这里推荐把node_modules文件夹去掉，这里是Hexo的依赖库），由于我们经常写文章，同样需要把新写的文章备份进去，当然，还有Hexo的主题改动。以后有改动或更新再次备份的时候，就会简单一些:</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">$ </span>git add .</div><div class="line"><span class="variable">$ </span>git commit -m <span class="string">"add new post"</span></div><div class="line"><span class="variable">$ </span>git push origin master	/<span class="regexp">/第一次后每次推送修改到远端仓库master分支</span></div></pre></figure>
+
+<p>到这里，整个Hexo算是备份到GitHub了，一般只是用来添加新文章和文章改动，如果需要更多的功能，建议查阅一下这两个Git文档:<a href="http://gitref.org/zh/index.html" target="_blank" rel="external">Git 参考手册</a>和<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的Git教程</a>。</p>
+<h3 id="恢复Hexo">恢复Hexo</h3>
+<p>第一种备份方式直接同步下来就可以了，而第二种则需要先安装必要的环境<a href="http://msysgit.github.io/" target="_blank" rel="external">Git</a>和<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a>和SSH Key，参见前一篇小文<a href="/7.html">快速开始Hexo的正确姿势</a>，顺便先设置用户信息、安装Hexo：</p>
+<figure class="highlight"><pre><div class="line">$ git config --<span class="keyword">global</span> user.name <span class="string">"jack"</span><span class="comment">//用户名</span></div><div class="line">$ git config --<span class="keyword">global</span> user.email  <span class="string">"jack@gmail.com"</span><span class="comment">//你的邮箱</span></div><div class="line">$ npm install -g hexo</div></pre></figure>
+
+<p>然后只需一条命令即可从GitHub克隆回来：</p>
+<figure class="highlight"><pre><div class="line">$ git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/jack/hexo.git</div></pre></figure>
+
+<p>这时候你的Hexo已经满血复活了，又可以快乐的Hexo了。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在2015年的第一天，我寻思给电脑也清理一下过个元旦吧，然后就手欠把主板CPU针脚干断两根，推到一片，主板送修后把硬盘接到了家用的另外一台电脑，恰遇如何备份和恢复Hexo的问题，这里便记录一下这个情况，高手可以直接无视。</p>
+<h3 id="备份Hexo的两种方式">备]]>
+    </summary>
+    
+      <category term="Hexo" scheme="http://xote.tk/tags/Hexo/"/>
+    
+      <category term="代码笔记" scheme="http://xote.tk/categories/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[快速开始Hexo的正确姿势]]></title>
+    <link href="http://xote.tk/7.html"/>
+    <id>http://xote.tk/7.html</id>
+    <published>2014-12-23T16:00:00.000Z</published>
+    <updated>2015-03-18T13:45:34.715Z</updated>
+    <content type="html"><![CDATA[<p>Hexo是很好的文章管理工具，一经使用我已经爱不释手。看过各种Hexo的安装教程之后，本码盲也成功召唤了一头Hexo坐骑，但是回头想想有些教程的内容过分详细、条例不清晰的原因往往也会给新手（包括我）造成出错的麻烦，于是在此梳理一番（本姿势仅适用于Win平台）。</p>
+<h3 id="开始Hexo前的准备工作">开始Hexo前的准备工作</h3>
+<ol>
+<li>本地必备的环境安装：<a href="http://msysgit.github.io/" target="_blank" rel="external">Git</a>和<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a>。</li>
+<li>托管Hexo的<a href="https://github.com/" target="_blank" rel="external">GitHub</a>账号一枚，并建立一个跟用户名一样的repositories，如用户名为jack则为:jack.github.io</li>
+<li>创建连接本地与Github的SSH Key。</li>
+</ol>
+<p>依次安装Git和Node.js后，在任意位置右键选择<code>Git Bash Here</code>，在命令窗口内以下命令来创建SSH Key:</p>
+<figure class="highlight"><pre><div class="line">$ ssh-keygen -t rsa -C <span class="string">"jack@gmail.com"</span>	<span class="comment">//你的邮箱</span></div></pre></figure>
+
+<p>输入这个命令后，凭着小学本科的英语水平你会看出Git系统要求你输入name啊password啊什么的，这时请啪啪啪一路回车，直到你看见由<code>+ + o O *  = S</code> 组成的个图案，说明你创建SSH Key成功了! 打开<code>C:\Users\Administrator\.ssh</code> 发现<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件，前者是私钥，不能泄露给别人，后者是公钥，也是连接GitHub需要的，把<code>id_rsa.pub</code> 内的一堆字母复制到到<a href="https://github.com/settings/ssh" target="_blank" rel="external">Github SSH keys</a>设置页面。完事儿以后先测试一下SSH Key是否能连接到GitHub：</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">$ </span>ssh -<span class="constant">T</span> git<span class="variable">@github</span>.com [yes]</div></pre></figure>
+
+<p>当返回一句Hi balabala的之后，说明你已经顺利勾搭上GitHub了，然后还需要设置一下用户信息，就可以安装Hexo了。</p>
+<figure class="highlight"><pre><div class="line">$ git config --<span class="keyword">global</span> user.name <span class="string">"jack"</span><span class="comment">//用户名</span></div><div class="line">$ git config --<span class="keyword">global</span> user.email  <span class="string">"jack@gmail.com"</span><span class="comment">//你的邮箱</span></div></pre></figure>
+
+<h3 id="安装Hexo">安装Hexo</h3>
+<p>在你需要存放Hexo的文件夹内依次输入以下三个命令，进行<code>安装hexo</code>、<code>初始化Hexo</code>和<code>安装Hexo依赖包</code>。</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">$ </span>npm install -g hexo</div><div class="line"><span class="variable">$ </span>hexo init</div><div class="line"><span class="variable">$ </span>npm install</div></pre></figure>
+
+<p>然后打开根目录下的_config.yml文件，找到<code>deploy:</code>项来配置Hexo。</p>
+<figure class="highlight"><pre><div class="line">deploy:</div><div class="line">  <span class="class"><span class="keyword">type</span>: <span class="title">github</span></span></div><div class="line">  repository: https:<span class="comment">//github.com/jack/jack.github.io.git</span></div><div class="line">  branch: master</div></pre></figure>
+
+<p>现在你的Hexo坐骑已经召唤成功了，呼一口气先，马上就可以坏快的开始Hexo了！</p>
+<h3 id="使用Hexo">使用Hexo</h3>
+<p>如果你也同样不熟悉Git命令，那么就直接把写好的<code>.md</code>格式的文章丢到<code>\source\_posts</code>文件夹吧，当然你需要在这些文章的页头加上Hexo认识的标记，如本文为例，页头标记是这样的:</p>
+<figure class="highlight"><pre><div class="line"><span class="bullet">---</span></div><div class="line">title: 快速开始Hexo的正确姿势	//标题</div><div class="line">date: 2014-12-24		// 日期</div><div class="line">categories: 代码笔记		//文章分类</div><div class="line">tags: Hexo			//文章tags</div><div class="line"><span class="header">permalink: 7			//文章的url别名</span></div><div class="line">---</div></pre></figure>
+
+<p>写好文章以后，还要通过命令使Hexo来生成文章、部署到GitHub，不过这些命令是在是太简单了:</p>
+<figure class="highlight"><pre><div class="line">$ hexo g == hexo generate	<span class="comment">//生成</span></div><div class="line">$ hexo d == hexo deploy		<span class="comment">//部署</span></div><div class="line">$ hexo s == hexo <span class="keyword">server</span>		<span class="comment">//本地预览</span></div></pre></figure>
+
+<p>在以上命令中<code>==</code>符号前面是简写命令，后面是完整命令，一般只需要记住<code>g 、d 、s</code>三个就OK了，如果你想本地预览，在输入命令后，打开网址<code>http://localhost:4000/</code> 就可以过过眼瘾先了。一般的Hexo步骤是：写文章 → 生成 → 部署/预览。如果你不用预览，可以输入<code>hexo d -g</code>直接进行生成部署。</p>
+<h3 id="给Hexo绑定一个域名">给Hexo绑定一个域名</h3>
+<p>绑定域名更是简单，只需在<code>source</code>文件夹添加一个<code>CNAME</code>文件，里面写上你的域名，然后在域名解析那里建立<code>CNAME</code>类型解析到<code>jack.github.io.</code>，稍等片刻，即可通过自己的域名访问。</p>
+<p>本文介绍了如何快速开始使用Hexo的过程，到此，想必在看本文的你已经成功拥有一个Hexo博客了。本文只是基本的Hexo搭建和使用说明，同是新手的我，在以后也会作文分享在Hexo的使用中遇到的各种问题，例如自定义主题、备份文章等知识，希望我们都能快乐的使用Hexo。</p>
+<p>评论模块：</p>
+<figure class="highlight"><pre><div class="line">THEMES:<span class="command">\_</span>config.yml fix duoshuo_short_name: duoshuoname</div><div class="line">THEMES:<span class="command">\layout</span><span class="command">\_</span>partia<span class="command">\article</span>.ejs <span class="special">#</span>25 </div><div class="line"> add &lt;<span class="comment">%- partial('comment') %&gt;</span></div></pre></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Hexo是很好的文章管理工具，一经使用我已经爱不释手。看过各种Hexo的安装教程之后，本码盲也成功召唤了一头Hexo坐骑，但是回头想想有些教程的内容过分详细、条例不清晰的原因往往也会给新手（包括我）造成出错的麻烦，于是在此梳理一番（本姿势仅适用于Win平台）。</p>
+<h]]>
+    </summary>
+    
+      <category term="Hexo" scheme="http://xote.tk/tags/Hexo/"/>
+    
+      <category term="代码笔记" scheme="http://xote.tk/categories/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[用GoAgent撸一个每天10G流量的科学上网利器]]></title>
+    <link href="http://xote.tk/6.html"/>
+    <id>http://xote.tk/6.html</id>
+    <published>2014-12-09T16:00:00.000Z</published>
+    <updated>2015-03-18T13:45:28.752Z</updated>
+    <content type="html"><![CDATA[<p>GoAgent是一个基于Google Appengine的代理工具，通过这个神器，可以更加自由的使用互联网。下面一起来搭建专属的科学上网利器吧。</p>
+<p>既然是专属的利器，首先需要申请一批自己的appid,登录<a href="https://appengine.google.com/" target="_blank" rel="external">Google App Engine</a>(如果没有Google帐号迅速注册一个先)创建一个GAE应用，一个账户可以创建10个应用，每个应用每天1G流量，如果你整天都挂在网上，我建议你一次创建10个应用，如:goa1、goa2……，然后记住这些appid。</p>
+<p>首先需要从GoAgent的主页<a href="https://github.com/goagent/goagent" target="_blank" rel="external">https://github.com/goagent/goagent</a>下载最新版本，修改 local\proxy.ini 中的 [gae] 下的 appid = 你的appid(多appid请用|隔开)。运行 uploader.bat 或 uploader.py 开始上传, 成功后即可使用了。</p>
+<p>Chrome用户通过<a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank" rel="external">Proxy SwitchySharp</a>管理使用Goa能更节省流量。如果你也使用Dropbox的客户端，就在客户端的选项里代理那一栏，选择手动，代理服务器类型为<code>HTTP</code>,服务器为：<code>127.0.0.1:8087</code>。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>GoAgent是一个基于Google Appengine的代理工具，通过这个神器，可以更加自由的使用互联网。下面一起来搭建专属的科学上网利器吧。</p>
+<p>既然是专属的利器，首先需要申请一批自己的appid,登录<a href="https://appengine.go]]>
+    </summary>
+    
+      <category term="GoAgent" scheme="http://xote.tk/tags/GoAgent/"/>
+    
+      <category term="善用佳软" scheme="http://xote.tk/categories/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[自定义Win7&8任务栏图标尺寸 顺带减少窗口边框]]></title>
+    <link href="http://xote.tk/4.html"/>
+    <id>http://xote.tk/4.html</id>
+    <published>2014-11-27T16:00:00.000Z</published>
+    <updated>2015-03-18T14:52:16.432Z</updated>
+    <content type="html"><![CDATA[<p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
+<p>打开注册表，打开到：<code>HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics</code>分别改动”MinWidth” 任务栏宽度、”PaddedBorderWidth”边框填充宽度、”BorderWidth”边框宽度，这三项为想要的数值。写成一个注册处理语法：</p>
+<figure class="highlight"><pre><div class="line">Windows Registry Editor <span class="keyword">Version</span> <span class="number">5.00</span></div><div class="line">;边框宽度与任务栏图标的宽度</div><div class="line">[HKEY_CURRENT_USER\<span class="keyword">Control</span> <span class="keyword">Panel</span>\Desktop\WindowMetrics]</div><div class="line"><span class="string">"MinWidth"</span>=<span class="string">"54"</span></div><div class="line"><span class="string">"PaddedBorderWidth"</span>=<span class="string">"0"</span></div><div class="line"><span class="string">"BorderWidth"</span>=<span class="string">"0"</span></div></pre></figure>
+
+<p>经测试，”MinWidth”=”54”为任务栏图标按钮最佳宽度。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
+<p>打开注册表，打开到：<code>HKEY_CURRENT]]>
+    </summary>
+    
+      <category term="注册表" scheme="http://xote.tk/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/"/>
+    
+      <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[自主控制自启动软件们]]></title>
+    <link href="http://xote.tk/5.html"/>
+    <id>http://xote.tk/5.html</id>
+    <published>2014-11-27T16:00:00.000Z</published>
+    <updated>2015-03-18T14:52:04.978Z</updated>
+    <content type="html"><![CDATA[<p>经常使用电脑并试用各种软件的我，对自动添加随系统启动的流氓软件深表痛恨，各种流氓软件拍扁了脑袋抢占资源启动自己，开机先卡个两分钟才能使用电脑。但是我只是需要用你们的时候才会打开你们而已，于是乎全部禁用。</p>
+<p>AHK全称Autohotkey，是个自动化的好软件，我虽然不是很精通，但是三两句小白代码足以实现自主控制自启动软件的需要。</p>
+<figure class="highlight"><pre><div class="line">Sleep 3000</div><div class="line">	Run D:<span class="command">\ATOM</span><span class="command">\Listary</span><span class="command">\Listary</span>.exe</div><div class="line">Sleep 5000</div><div class="line">	Run D:<span class="command">\INT</span><span class="command">\ADM</span><span class="command">\ADM</span>.exe</div><div class="line">ExitApp</div></pre></figure>
+
+<p>代码说明：等候3000毫秒启动Listary.exe，再等候5000毫秒启动ADM.exe，再等候5000毫秒启动Dropbox.exe，然后退出自己。最后用AHK自带的”ahk2exe”转换成一个exe文件，并加入到开机自启中即可。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>经常使用电脑并试用各种软件的我，对自动添加随系统启动的流氓软件深表痛恨，各种流氓软件拍扁了脑袋抢占资源启动自己，开机先卡个两分钟才能使用电脑。但是我只是需要用你们的时候才会打开你们而已，于是乎全部禁用。</p>
+<p>AHK全称Autohotkey，是个自动化的好软件，我虽]]>
+    </summary>
+    
+      <category term="AHK" scheme="http://xote.tk/tags/AHK/"/>
+    
+      <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[提高Listary启动程序的命中率]]></title>
+    <link href="http://xote.tk/3.html"/>
+    <id>http://xote.tk/3.html</id>
+    <published>2014-11-17T16:00:00.000Z</published>
+    <updated>2015-03-18T13:45:13.534Z</updated>
+    <content type="html"><![CDATA[<p>作为一个桌面图标多了会死星人，我习惯用热键呼出Listary框打开需要的软件，但Listary默认的搜索结果有点不尽人意，原因有3：</p>
+<ul>
+<li>很多软件的安装目录含有多个相似名称的文件</li>
+<li>Listary可以智能匹配字母对应拼音，且匹配任意位置</li>
+<li>Listary会把所有匹配的文件、文件夹一同展示</li>
+</ul>
+<p>以上三个原因，造成通过Listary启动应用程序的命中率不足，或需要更多的按键动作（上下选取）才能打开所需软件，岂不是还不如直接桌面戳图标来的更有效率？是不是要换成其他的快速启动软件，可其他的快速启动软件又不能快速搜索全磁盘文件……</p>
+<p>换一个已经上手的高频率使用的软件是个更纠结的问题，只需两步手动设置，就可以使Listary启动程序的命中率提高到99%~100%，且按键更少。</p>
+<p>第一步：把电脑上装的所有软件的快捷方式（常用文件夹也可以）放到同一个文件夹，如<code>D:\run\</code>，并把快捷方式的名字改成2-3个字母，如我把Dropbox改成DB，把Photoshop改成PS，中文也可以，因为Listary能匹配拼音。</p>
+<center><a href="http://dn-xair.qbox.me/img/00301.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00301.png" alt="建立快捷方式库"></a><br>建立快捷方式库</center>
+
+<p>第二步：打开Listary选项菜单，切换到<code>启动程序</code>项，把默认自带的<code>%star_menu%</code>到<code>%default_launch%</code>前面的<code>√</code>去掉，再把<code>D:\run\</code>加进去。</p>
+<p>大功告成，之后启动Photoshop只需在呼出Listary后按PS就可以回车键打开了，命中率几乎100%，如果安装的软件实在太多，建议把快捷方式的名字改成3~5个字母。</p>
+<center><a href="http://dn-xair.qbox.me/img/00302.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00302.png" alt="输入简单的字母"></a><br>输入简单的字母</center>]]></content>
+    <summary type="html">
+    <![CDATA[<p>作为一个桌面图标多了会死星人，我习惯用热键呼出Listary框打开需要的软件，但Listary默认的搜索结果有点不尽人意，原因有3：</p>
+<ul>
+<li>很多软件的安装目录含有多个相似名称的文件</li>
+<li>Listary可以智能匹配字母对应拼音，且匹配任意位置]]>
+    </summary>
+    
+      <category term="Listary" scheme="http://xote.tk/tags/Listary/"/>
+    
+      <category term="善用佳软" scheme="http://xote.tk/categories/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[让Mactype在×64的Chrome下正常渲染]]></title>
+    <link href="http://xote.tk/2.html"/>
+    <id>http://xote.tk/2.html</id>
+    <published>2014-11-16T16:00:00.000Z</published>
+    <updated>2015-03-18T14:11:48.154Z</updated>
+    <content type="html"><![CDATA[<p><code>Update:2014.11.28</code> 在<a href="chrome://flags/" target="_blank" rel="external">chrome://flags/</a>中启用<code>停用DirectWrite</code>，即可渲染。</p>
+<p>自从用了Mactype这个媲美Mac OS渲染神器，从Win XP到Win8.1，每次装好系统第一件事就是安装调试Mactype，没有这货，Win平台的字体兼职刺瞎狗眼。但是升级到64位Win8.1后，问题就出现了。不能渲染IE这就不说了，但是我作为一个重度Chrome用户，除了Chrome不会用其他的浏览器，Mactype在64位Win8.1下，居然把网页渲染成了这个狗样子！</p>
+<center><a href="http://dn-xair.qbox.me/img/00201.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00201.png" alt="使用前"></a><br>使用前</center>
+
+<p>岂能让这等惨不忍睹的页面出现在我的屏幕，无渲染的页面也是入不了眼的，于是开始曲线救国，让精美的渲染字体重回眼底。</p>
+<p>Mactype的配置文件中，有一项<code>[ExcludeSub]</code>解释为不进行热替换字体的程序，但会渲染字体。先把<code>Chrome.exe</code>添加到该项的下一行。然后在浏览器的设置中进行替换字体就可以了。</p>
+<p>Chrome的应用商店有很多可以设置页面字体的扩展，我首先用了强大的Stylish，固然强大，但是加载页面的时候会有一秒的延迟，弃之，经过再三比较，选用了一款叫做<a href="https://chrome.google.com/webstore/detail/%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%E5%AD%97%E4%BD%93%C2%B7%E5%AE%8C%E7%BE%8E%E7%89%88/jjeknnigbkhhilfjhoijbddeaihdpmdi" target="_blank">强制使用微软雅黑字体</a>的扩展。</p>
+<p>默认会把网页中所有字体替换成雅黑字体，Mactype会渲染它。如果你喜欢其他字体，就要进一步修改了。</p>
+<p>安装后，在<a href="chrome://extensions/" target="_blank" rel="external">chrome://extensions/</a>中会显示这个扩展的ID： jjeknnigbkhhilfjhoijbddeaihdpmdi，记录下来。打开扩展所在的文件夹，<code>C:\Users\***\AppData\Local\Google\Chrome\User Data\Default\Extensions\jjeknnigbkhhilfjhoijbddeaihdpmdi\</code>，在里面找到<code>custom.css</code>，这就是控制字体的样式表了。在里面写入：</p>
+<figure class="highlight css"><pre><div class="line">* <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"XHei OSX"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div></pre></figure>
+
+<p>XHei OSX 是我替换的字体，你可以替换任意字体。这时，再打开网页，字体就会变成了这样。</p>
+<center><a href="http://dn-xair.qbox.me/img/00202.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00202.png" alt="使用后"></a><br>使用后</center>
+
+<p>但是有些网页使用了webfont，即图标文字，如淘宝、支付宝、天猫等，或代码块区域，这时候我们要在全局字体的下面加入一些例外。</p>
+<figure class="highlight css"><pre><div class="line"><span class="comment">/* for taobao.com, alipay.com, tmail.com */</span></div><div class="line"><span class="class">.iconfont</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"global"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="class">.mui-iconfont</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"mui-iconfont"</span>, <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="tag">a</span> <span class="class">.icon</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"vip-font"</span>, <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="comment">/* for github.com */</span></div><div class="line"><span class="tag">span</span> <span class="class">.octicon</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> octicons <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="comment">/* for Code */</span></div><div class="line"><span class="tag">pre</span>, <span class="tag">code</span>, <span class="tag">textarea</span>, <span class="tag">tt</span>, <span class="tag">kbd</span>, <span class="tag">samp</span>,<span class="tag">pre</span> *, <span class="tag">code</span> *, <span class="tag">textarea</span> *, <span class="tag">tt</span> *, <span class="tag">kbd</span> *, <span class="tag">samp</span> * <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> Consolas,Stxihei <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div></pre></figure>
+
+<p>.iconfont之类是使用webfont元素的class，如果你不习惯这样太过于强制的方式，可以尝试用下面的方法单独替换字体。</p>
+<figure class="highlight css"><pre><div class="line"><span class="at_rule">@<span class="keyword">font-face</span></span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">'宋体'</span></span></span>; <span class="rule"><span class="attribute">src</span>:<span class="value"> <span class="function">local</span>(<span class="string">'XHei OSX'</span>)</span></span>;<span class="rule">}</span></span></div><div class="line"><span class="at_rule">@<span class="keyword">font-face</span></span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">'宋体'</span></span></span>; <span class="rule"><span class="attribute">src</span>:<span class="value"> <span class="function">local</span>(<span class="string">'XHei OSX'</span>)</span></span>;<span class="rule">}</span></span></div><div class="line"><span class="at_rule">@<span class="keyword">font-face</span></span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">'SimSun'</span></span></span>; <span class="rule"><span class="attribute">src</span>:<span class="value"> <span class="function">local</span>(<span class="string">'XHei OSX'</span>)</span></span>;<span class="rule">}</span></span></div><div class="line"><span class="at_rule">@<span class="keyword">font-face</span></span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">'SimSun'</span></span></span>; <span class="rule"><span class="attribute">src</span>:<span class="value"> <span class="function">local</span>(<span class="string">'XHei OSX'</span>)</span></span>;<span class="rule">}</span></span></div></pre></figure>
+
+<p>以上语句只会单独替换宋体，但是写法要注意，中西文的字体名字都要写上，不需要特别声明粗体，举一反三写之。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><code>Update:2014.11.28</code> 在<a href="chrome://flags/" target="_blank" rel="external">chrome://flags/</a>中启用<code>停用DirectWrite</code>]]>
+    </summary>
+    
+      <category term="Mactype" scheme="http://xote.tk/tags/Mactype/"/>
+    
+      <category term="善用佳软" scheme="http://xote.tk/categories/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Markdown语法备忘录]]></title>
+    <link href="http://xote.tk/1.html"/>
+    <id>http://xote.tk/1.html</id>
+    <published>2014-11-15T16:00:00.000Z</published>
+    <updated>2015-03-18T13:42:36.961Z</updated>
+    <content type="html"><![CDATA[<p>常用的写作标记：</p>
+<figure class="highlight"><pre><div class="line">&lt;h1&gt;<span class="keyword">ex</span>&lt;/h1&gt; | #ex  （<span class="number">1</span>~<span class="number">6</span>个#对应H1~H6）</div><div class="line">&lt;<span class="keyword">em</span>&gt;<span class="keyword">ex</span>&lt;/<span class="keyword">em</span>&gt; | *<span class="keyword">ex</span>* | _ex_</div><div class="line">&lt;strong&gt;<span class="keyword">ex</span>&lt;/strong&gt; | **<span class="keyword">ex</span>** | __ex__</div></pre></figure>
+
+<p>如果 * 和 _ 两边都有空白则作普通符号，如果要在文字前后直接插入普通的星号或底线，你可以用反斜线：</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">&lt;p&gt;</span><span class="keyword">*</span>Someone<span class="keyword">*</span> like you.<span class="variable">&lt;/p&gt;</span></div><div class="line">	&gt;code:  \<span class="keyword">*</span>Someone\<span class="keyword">*</span> like you.</div></pre></figure>
+
+<p>各种链接的转换,省略了url中的<code>http://</code>。</p>
+<figure class="highlight"><pre><div class="line">&lt;a <span class="variable">href=</span><span class="string">"ex.com"</span>&gt;EX&lt;/a&gt;</div><div class="line">	&gt;code:  [ex](ex.com)</div><div class="line">    	&lt;a <span class="variable">href=</span><span class="string">"ex.com"</span>&gt;ex.com&lt;/a&gt;</div><div class="line">        	&gt;code:  &lt;ex.com&gt;</div><div class="line">&lt;img <span class="variable">src=</span><span class="string">"http://www.ex.com/img.jpg"</span> <span class="variable">alt=</span><span class="string">"LOGO"</span>&gt;</div><div class="line">	&gt;code: ![LOGO](http://www.ex.com/img.jpg)</div><div class="line">        &lt;img <span class="variable">src=</span><span class="string">"http://www.ex.com/img.jpg"</span> <span class="variable">alt=</span><span class="string">"LOGO"</span> <span class="variable">title=</span><span class="string">"LOGO"</span>&gt;</div><div class="line">            &gt;code:  ![LOGO](http://www.ex.com/img.jpg <span class="string">"LOGO"</span>)</div><div class="line">&lt;a <span class="variable">href=</span><span class="string">"http://ex.com"</span>&gt;&lt;img <span class="variable">src=</span><span class="string">"http://www.ex.com/img.jpg"</span> <span class="variable">alt=</span><span class="string">"LOGO"</span>&gt;&lt;/a&gt;</div><div class="line">	&gt;code:  [![LOGO](http://www.ex.com/img.jpg)](http://ex.com)</div></pre></figure>
+
+<p>Markdown语法无法定义图片尺寸，但是可以直接写入HTML语言，以此来定义图片尺寸、链接中的target属性、视频（优酷的一个例子）等：</p>
+<figure class="highlight"><pre><div class="line">&lt;a <span class="variable">href=</span><span class="string">"ex.com"</span> <span class="variable">target=</span><span class="string">"_blank"</span>&gt;EX&lt;/a&gt;</div><div class="line">	&lt;a <span class="variable">href=</span><span class="string">"ex.com"</span> <span class="variable">target=</span><span class="string">"_blank"</span> <span class="variable">class=</span><span class="string">"style"</span>&gt;EX&lt;/a&gt;</div><div class="line">&lt;img <span class="variable">src=</span><span class="string">"http://www.ex.com/img.jpg"</span> <span class="variable">alt=</span><span class="string">"LOGO"</span> <span class="variable">width=</span><span class="string">"270"</span> <span class="variable">height=</span><span class="string">"129"</span>&gt;</div><div class="line">&lt;embed <span class="variable">src=</span><span class="string">"http://player.youku.com/player.php/sid/XNDgzMTI4MjQ0/v.swf"</span> <span class="variable">allowFullScreen=</span><span class="string">"true"</span> <span class="variable">quality=</span><span class="string">"high"</span> <span class="variable">width=</span><span class="string">"632"</span> <span class="variable">height=</span><span class="string">"527"</span> <span class="variable">align=</span><span class="string">"middle"</span> <span class="variable">allowScriptAccess=</span><span class="string">"always"</span> <span class="variable">type=</span><span class="string">"application/x-shockwave-flash"</span>&gt;&lt;/embed&gt;</div></pre></figure>
+
+<p>在代码片段中， <code>′′′</code>内的语句只用来展示，不会执行。language是声明语言的标记，可以使<code>′′′</code>、CSS、MARKDOWN任意语言。也可以用4个空格或1个Tab代替：</p>
+<figure class="highlight"><pre><div class="line">&lt;pre&gt;</div><div class="line"> &lt;code&gt;</div><div class="line">  &lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"exclass"</span>&gt;This <span class="keyword">is</span> code&lt;/<span class="keyword">div</span>&gt;</div><div class="line"> &lt;/code&gt;</div><div class="line">&lt;/pre&gt;</div><div class="line"><span class="comment">------------------------------------------------</span></div><div class="line">′′′language</div><div class="line"> &lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"exclass"</span>&gt;This <span class="keyword">is</span> code&lt;/<span class="keyword">div</span>&gt;</div><div class="line">′′′</div></pre></figure>
+
+<p>当需要在文章中使用一句短代码的时候。使用 <code>′</code> 或 <code>′′</code> ,或者直接用 <code>&lt;code&gt;</code> ：</p>
+<figure class="highlight"><pre><div class="line">&lt;p&gt;Just blockqute <span class="literal">a</span> &lt;code&gt;Short code&lt;/code&gt; example&lt;/p&gt;</div><div class="line">--------------------------------------------------------</div><div class="line">    Just blockqute <span class="literal">a</span> <span class="escape">`S</span>hort code<span class="escape">` </span>example</div><div class="line">	<span class="literal">or</span></div><div class="line">    Just blockqute <span class="literal">a</span> <span class="escape">``</span>Short code<span class="escape">``</span> example</div><div class="line">	<span class="literal">or</span></div><div class="line">    Just blockqute <span class="literal">a</span> &lt;code&gt;Short code&lt;/code&gt; example</div></pre></figure>
+
+<p>引用 Blockquotes  段首加 <code>&gt;</code>，引用内可用其他的markdown语法：</p>
+<figure class="highlight"><pre><div class="line">&lt;blockquote&gt;</div><div class="line"><span class="code">	&lt;p&gt;Blockquotes something&lt;/p&gt;</span></div><div class="line"><span class="header">&lt;/blockquote&gt;</span></div><div class="line">---------------------------------</div><div class="line">&gt;Blockquotes something</div></pre></figure>
+
+<p>无序的 <code>ul</code>、<code>li</code> 列表，段首用 <code>*</code>、<code>+</code>、<code>-</code>，后跟一个 <code>空格</code>:</p>
+<figure class="highlight"><pre><div class="line">&lt;ul&gt;</div><div class="line"><span class="code"> &lt;li&gt;List 1&lt;/li&gt;</span></div><div class="line"><span class="code"> &lt;li&gt;List 2&lt;/li&gt;</span></div><div class="line"><span class="code"> &lt;li&gt;List&lt;/li&gt;</span></div><div class="line"><span class="header">&lt;/ul&gt;</span></div><div class="line">--------------------</div><div class="line"><span class="bullet">* </span>List 1</div><div class="line">+ List 2</div><div class="line"><span class="bullet">- </span>List 3</div></pre></figure>
+
+<p>带上1.2.3.的有序的 <code>&lt;ol&gt;</code>、<code>&lt;li&gt;</code> 列表，则在开头使用 <code>数字</code>+ 句点<code>.</code> + <code>空格</code>：</p>
+<figure class="highlight"><pre><div class="line">&lt;ol&gt;</div><div class="line"><span class="code"> &lt;li&gt;List 1&lt;/li&gt;</span></div><div class="line"><span class="code"> &lt;li&gt;List 2&lt;/li&gt;</span></div><div class="line"><span class="code"> &lt;li&gt;List&lt;/li&gt;</span></div><div class="line"><span class="header">&lt;/ol&gt;</span></div><div class="line">--------------------</div><div class="line">1. List 1</div><div class="line">2. List 2</div><div class="line">3. List 3</div></pre></figure>
+
+<p>如果列表项目间用空行，在输出<code>′′′</code>时Markdown就会将项目内容用 <code>&lt;p&gt;</code> 标签包起来，举例来说：</p>
+<figure class="highlight"><pre><div class="line"><span class="variable">&lt;ul&gt;</span></div><div class="line">    <span class="variable">&lt;li&gt;</span><span class="variable">&lt;p&gt;</span>Bird<span class="variable">&lt;/p&gt;</span><span class="variable">&lt;/li&gt;</span></div><div class="line">    <span class="variable">&lt;li&gt;</span><span class="variable">&lt;p&gt;</span>Magic<span class="variable">&lt;/p&gt;</span><span class="variable">&lt;/li&gt;</span></div><div class="line"><span class="variable">&lt;/ul&gt;</span></div><div class="line">-------------------------</div><div class="line"><span class="keyword">*</span> list 1</div><div class="line">　</div><div class="line"><span class="keyword">*</span> list 2</div></pre></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>常用的写作标记：</p>
+<figure class="highlight"><pre><div class="line">&lt;h1&gt;<span class="keyword">ex</span>&lt;/h1&gt; | #ex  （<span class="n]]>
+    </summary>
+    
+      <category term="Markdown" scheme="http://xote.tk/tags/Markdown/"/>
+    
+      <category term="代码笔记" scheme="http://xote.tk/categories/code/"/>
+    
+  </entry>
+  
+</feed>

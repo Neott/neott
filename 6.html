@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>用GoAgent撸一个每天10G流量的科学上网利器 | 乱码周刊</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" media="screen" type="text/css">
+</head>
+<body>
+<div id="world" class="drop-shadow">
+    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
+<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
+    <div id="content">
+
+    <div class="menu  button">
+        <a href="/">网站首页</a>
+        <span class="arrow">&rsaquo;</span>
+        
+    
+    <a href="/categories/software/">善用佳软</a>
+
+        
+    <span class="arrow">&rsaquo;</span>
+    
+    <a href="/tags/GoAgent/">GoAgent</a>
+
+    </div>
+    
+    
+          <h1>用GoAgent撸一个每天10G流量的科学上网利器</h1>
+    
+
+    <div class="post">
+        <p>GoAgent是一个基于Google Appengine的代理工具，通过这个神器，可以更加自由的使用互联网。下面一起来搭建专属的科学上网利器吧。</p>
+<p>既然是专属的利器，首先需要申请一批自己的appid,登录<a href="https://appengine.google.com/" target="_blank" rel="external">Google App Engine</a>(如果没有Google帐号迅速注册一个先)创建一个GAE应用，一个账户可以创建10个应用，每个应用每天1G流量，如果你整天都挂在网上，我建议你一次创建10个应用，如:goa1、goa2……，然后记住这些appid。</p>
+<p>首先需要从GoAgent的主页<a href="https://github.com/goagent/goagent" target="_blank" rel="external">https://github.com/goagent/goagent</a>下载最新版本，修改 local\proxy.ini 中的 [gae] 下的 appid = 你的appid(多appid请用|隔开)。运行 uploader.bat 或 uploader.py 开始上传, 成功后即可使用了。</p>
+<p>Chrome用户通过<a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank" rel="external">Proxy SwitchySharp</a>管理使用Goa能更节省流量。如果你也使用Dropbox的客户端，就在客户端的选项里代理那一栏，选择手动，代理服务器类型为<code>HTTP</code>,服务器为：<code>127.0.0.1:8087</code>。</p>
+
+    </div>
+    <div class="date">2014-12-10</div>
+</div>
+    <div id="foot">&copy; 2014 Naog
+ · <a href="http://hexo.io/" target="_blank">Hexo</a>
+ · <a href="https://github.com/" target="_blank">GitHub</a>
+ · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
+</div>
+    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+</body>
+</html>

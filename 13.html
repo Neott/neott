@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hexo Tips 持续贴 | 乱码周刊</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css" media="screen" type="text/css">
+</head>
+<body>
+<div id="world" class="drop-shadow">
+    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
+<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
+    <div id="content">
+
+    <div class="menu  button">
+        <a href="/">网站首页</a>
+        <span class="arrow">&rsaquo;</span>
+        
+    
+    <a href="/categories/code/">代码笔记</a>
+
+        
+    <span class="arrow">&rsaquo;</span>
+    
+    <a href="/tags/Hexo/">Hexo</a>
+
+    </div>
+    
+    
+          <h1>Hexo Tips 持续贴</h1>
+    
+
+    <div class="post">
+        <p>Hexo 3.0 Bug 略多，降级到2.8：</p>
+<figure class="highlight"><pre><div class="line">npm uninstall hexo hexo-cli hexo-server hexo-generator-index hexo-generator-archive hexo-generator-category hexo-generator-tag hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-renderer-marked hexo-renderer-stylus</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install -g hexo<span class="comment">@2.8.3</span></div><div class="line">hexo init</div><div class="line">npm install</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">卸载高版本插件&安装指定版本插件</div><div class="line">npm uninstall hexo-renderer-ejs hexo-renderer-marked hexo-renderer-stylus</div><div class="line">npm install hexo-renderer-ejs<span class="comment">@0.1.0 hexo-renderer-marked@0.1.0 hexo-renderer-stylus@0.1.0 hexo-generator-feed@0.2.1 hexo-generator-sitemap@0.2.0</span></div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install hexo-gzip</div></pre></figure>
+
+
+
+<p>Hexo更新到了3.0版本，较以往的使用上出现了个别问题，在<a href="/hexo-start.html#安装Hexo">快速开始Hexo的正确姿势</a>中的三依次命令，改为:</p>
+<figure class="highlight"><pre><div class="line">npm <span class="operator"><span class="keyword">install</span> hexo-cli -g</span></div><div class="line">npm <span class="keyword">install</span> hexo <span class="comment">--save</span></div><div class="line">hexo init</div><div class="line">npm <span class="keyword">install</span></div></pre></figure>
+
+<p>然后安装常用插件与配置:</p>
+<figure class="highlight"><pre><div class="line">npm install hexo-server --save</div><div class="line">npm install hexo-generator-index --save</div><div class="line">npm install hexo-generator-archive --save</div><div class="line">npm install hexo-generator-category --save</div><div class="line">npm install hexo-generator-tag --save</div><div class="line">npm install hexo-deployer-git --save</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install hexo-deployer-heroku --save</div><div class="line">npm install hexo-deployer-rsync --save</div><div class="line">npm install hexo-deployer-openshift --save</div></pre></figure>
+
+<p>换行符的问题:</p>
+<figure class="highlight"><pre><div class="line">hexo warning: LF will be replaced <span class="keyword">by</span> <span class="constant">CRLF</span> <span class="operator">in</span> XXX.</div><div class="line">解决方法：</div><div class="line">git config <span class="comment">--global core.autocrlf false</span></div></pre></figure>
+
+<p>index.lock问题:</p>
+<figure class="highlight"><pre><div class="line">fatal: Unable to <span class="operator"><span class="keyword">create</span> ‘/.git/<span class="keyword">index</span>.<span class="keyword">lock</span>’: File <span class="keyword">exists</span>.</span></div><div class="line">解决方法：</div><div class="line">rm -f <span class="keyword">index</span>.<span class="keyword">lock</span></div></pre></figure>
+
+
+    </div>
+    <div class="date">2015-03-13</div>
+</div>
+    <div id="foot">&copy; 2014 Naog
+ · <a href="http://hexo.io/" target="_blank">Hexo</a>
+ · <a href="https://github.com/" target="_blank">GitHub</a>
+ · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
+</div>
+    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+</body>
+</html>
