@@ -47,7 +47,7 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     .meta,.meta a{color:#BBB}
     /*--------------------------------*/
     center img{max-width:580px}
-    .post{font-family:Georgia,Arial}
+    /*.post{font-family:Georgia,Arial}*/
     .post p{line-height:24px}
     .post p em{font-style:normal;background:#98FB98}
     .post p strong{font-style:normal;background:#FF0}
