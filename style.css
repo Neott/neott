@@ -1,28 +1,37 @@
 *{margin:0;padding:0}
-body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;color:#444;word-break:break-all;background:#E1E1E1 url("http://dn-xair.qbox.me/img/background.png") repeat}
+body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;color:#444;word-break:break-all;background:#F7F7F7 url("http://dn-xair.qbox.me/img/background.png") repeat}
 #world{width:600px;margin:50px auto 20px;-moz-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);-webkit-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);box-shadow:0 0 40px rgba(0, 0, 0, 0.15)}
 .drop-shadow {position:relative}
 .drop-shadow:before,.drop-shadow:after{content:"";position:absolute;z-index:-1;bottom:15px;left:10px;width:50%;height:20%;-webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);-moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);box-shadow:0 15px 15px rgba(0, 0, 0, 0.7);-webkit-transform:rotate(-2deg);-moz-transform:rotate(-2deg);-o-transform:rotate(-2deg);transform:rotate(-2deg)}
 .drop-shadow:after{right:10px;left:auto;-webkit-transform:rotate(2deg);-moz-transform:rotate(2deg);-o-transform:rotate(2deg);transform:rotate(2deg)}
 /*--------------------------------*/
+    .button a{background:#ffffff;border:1px solid #e5e5e5;
+            background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff),color-stop(50%,#f3f3f3),color-stop(51%,#ededed), color-stop(100%,#ffffff));
+            background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+            background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+            background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 )}
+    .button a:hover{color:#333;border:1px solid #ccc}
+    /*--------------------------------*/
     a,a:hover,.post .button a,.post .button a:hover{text-decoration:none}
     .post a,.post a:hover,#foot a:hover{text-decoration:underline}
     /*--------------------------------*/
     a,.meta a:hover/*,H2 a:hover*/,#backtop a:hover{color:#678087}
-    #topbar a,.nav,.nav a,.date,#foot,#foot a,#backtop a{color:#999}
-    a:hover,H2 a,.button a:hover{color:#3d5256}
+    #topbar a,.nav,.date,#foot,#foot a,#backtop a{color:#999}
+    a:hover,H2 a{color:#3d5256}
     .menu,.button a,center{color:#778087}
-    .button a,.nav a:hover{background:#DEDEDE}
-    .menu,.nav a{background:#EEE}
-    .item li:hover,H1{background:#f9f9f9}
+    .item li:hover,H1{background:#F7F7F7}
     /*--------------------------------*/
-    #topbar a,.button a{display:inline-block;line-height:1}
-    #topbar a,.button a,.nav a{border-radius:3px;padding:5px}
+    #topbar a,.button a{display:inline-block;line-height:1;border-radius:3px;padding:5px}
     .menu,H1,H3,.item li,.archive/* ,.date */{border-bottom:1px solid #CCC}
+    .menu,#foot{background:#EFEFEF}
+    .menu,pre{padding:10px}
     H3,.markpage{border-top:1px solid #CCC}
     #topbar,.item li,.nav,#foot{line-height:50px}
-    #topbar,.menu,.item li,.post,H1,H3,.post blockquote,.post ul, .post ol,.comment{padding:0 10px}
+    #topbar,.item li,.post,H1,H3,.post blockquote,.post ul, .post ol,.comment{padding:0 10px}
     .sup,.arrow,.archive-count{font-weight:bold}
+    /*--------------------------------*/
     H1,H2,H3,.post p strong{font-weight:normal}
     H2,H3,.home a,.post p,.post ul, .post ol{font-size:14px}
     H1,.nav,.date,.error,#foot{text-align:center}
@@ -30,16 +39,14 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     H1{font-size:18px;line-height:42px}
     H3{margin:20px -10px 0;line-height:2.1;background:#F3FAFF;border-left: 5px solid #c7e8ff}
 /*--------------------------------*/
-#topbar{background:#222;color:#DDD;border-radius:3px 3px 0 0;position:relative}
-#topbar a:hover{background:#333;color:#CCC}
+#topbar{background:#222;border-radius:3px 3px 0 0;position:relative}
+#topbar a:hover{background:#444;color:#CCC}
     .home a,.topr a{letter-spacing:3px}
     .topr{position:absolute;right:10px;top:0;text-align:right}
     .topr a{margin-left:3px}
 /*--------------------------------*/
-#content{background:#FFF;border-left:1px solid #BBB;border-right:1px solid #BBB}
-    .menu{padding:10px}
-    .button a:hover{background:#CECECE}
-    .sup,.archive-count{margin:0 3px;color:#BCBCBC;font-size:11px}
+#content{background:#FFF;border-left:1px solid #CCC;border-right:1px solid #CCC}
+    .sup,.archive-count{margin-left:3px;color:#BCBCBC;font-size:11px}
     .arrow{color:#000;font-family:'Lucida Grande',Tahoma}
     /*--------------------------------*/
     .item li/* ,.date */{list-style-type:none}
@@ -62,20 +69,20 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     .nav span.next{position:absolute;right:10px}
     /*--------------------------------*/
     .mark{padding:10px 0 5px}
-    .mark a{margin:0 2px 5px 0}
+    .mark a{margin-bottom:4px}
     .archive{padding:10px 10px 5px}
     .archive a{margin:0 5px 5px 0}
     .error{padding:80px 0}
 /*--------------------------------*/
-#foot{background:#E2E2E2;border:1px solid #BBB;border-radius:0 0 3px 3px}
+#foot{border:1px solid #CCC;border-radius:0 0 3px 3px}
 #backtop{position:fixed;left:50%;bottom:20px;margin-left:310px}
 #backtop a{display:block}
 table{border-spacing:0;width:100%}
 /*--------------------------------*/
-    pre,code{font:12px/1.75em 'Source Code Pro Light',Consolas,Fixedsys,'\65B9\6B63\5170\4EAD\8D85\7EC6\9ED1\7B80\4F53','Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;background-color:#272822;color:#DDD}
-    pre{overflow:auto;padding:10px;margin:20px -10px 0;word-wrap:normal}
+    pre,code{font:12px/1.75em 'Source Code Pro Light',Consolas,Fixedsys,'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;background-color:#272822;color:#DDD}
+    pre{overflow:auto;margin:20px -10px 0;word-wrap:normal}
     code{padding:0;margin:0}
-    p code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #CCC;border-radius:3px;background:#F5F5F5;font-size:13px}
+    p code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #E2E2E2;border-radius:3px;background:#FCFCFC;font-size:13px}
     /*--------------------------------*/
     pre .comment{color:#969896}
     pre .css .hexcolor{color:#8abeb7}
