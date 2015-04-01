@@ -7,10 +7,12 @@
     <link rel='stylesheet' href='/style.css' media='screen' type='text/css'>
 </head>
 <body>
-<div id="world" class="drop-shadow">
-    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
-<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
-    <div id="content">
+<div id="Top"><div class="content">
+    <div class="home"><a href="/">亂碼週刊</a></div>
+    <div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div>
+</div></div>
+<div id="Wrapper">
+    <div class="content main">
 
     <div class="menu  button">
         <a href="/">网站首页</a>
@@ -24,16 +26,17 @@
     
     <a href="/tags/Mactype/">Mactype</a>
 
-    </div>
-    
+        
     
           <h1>让Mactype在×64的Chrome下正常渲染</h1>
     
 
+        <span class="date">2014-11-17</span>
+    </div>
     <div class="post">
         <p><code>Update:2014.11.28</code> 在<a href="chrome://flags/" target="_blank" rel="external">chrome://flags/</a>中启用<code>停用DirectWrite</code>，即可渲染。</p>
 <p>自从用了Mactype这个媲美Mac OS渲染神器，从Win XP到Win8.1，每次装好系统第一件事就是安装调试Mactype，没有这货，Win平台的字体兼职刺瞎狗眼。但是升级到64位Win8.1后，问题就出现了。不能渲染IE这就不说了，但是我作为一个重度Chrome用户，除了Chrome不会用其他的浏览器，Mactype在64位Win8.1下，居然把网页渲染成了这个狗样子！</p>
-<center><a href="http://dn-xair.qbox.me/img/00201.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00201.png" alt="使用前"></a><br>使用前</center>
+<center><a href="http://dn-naog.qbox.me/00201.png" target="_blank" rel="external"><img src="http://dn-naog.qbox.me/00201.png" alt="使用前"></a><br>使用前</center>
 
 <p>岂能让这等惨不忍睹的页面出现在我的屏幕，无渲染的页面也是入不了眼的，于是开始曲线救国，让精美的渲染字体重回眼底。</p>
 <p>Mactype的配置文件中，有一项<code>[ExcludeSub]</code>解释为不进行热替换字体的程序，但会渲染字体。先把<code>Chrome.exe</code>添加到该项的下一行。然后在浏览器的设置中进行替换字体就可以了。</p>
@@ -43,7 +46,7 @@
 <figure class="highlight css"><pre><div class="line">* <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"XHei OSX"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div></pre></figure>
 
 <p>XHei OSX 是我替换的字体，你可以替换任意字体。这时，再打开网页，字体就会变成了这样。</p>
-<center><a href="http://dn-xair.qbox.me/img/00202.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00202.png" alt="使用后"></a><br>使用后</center>
+<center><a href="http://dn-naog.qbox.me/00202.png" target="_blank" rel="external"><img src="http://dn-naog.qbox.me/00202.png" alt="使用后"></a><br>使用后</center>
 
 <p>但是有些网页使用了webfont，即图标文字，如淘宝、支付宝、天猫等，或代码块区域，这时候我们要在全局字体的下面加入一些例外。</p>
 <figure class="highlight css"><pre><div class="line"><span class="comment">/* for taobao.com, alipay.com, tmail.com */</span></div><div class="line"><span class="class">.iconfont</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"global"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="class">.mui-iconfont</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"mui-iconfont"</span>, <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="tag">a</span> <span class="class">.icon</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"vip-font"</span>, <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="comment">/* for github.com */</span></div><div class="line"><span class="tag">span</span> <span class="class">.octicon</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> octicons <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="comment">/* for Code */</span></div><div class="line"><span class="tag">pre</span>, <span class="tag">code</span>, <span class="tag">textarea</span>, <span class="tag">tt</span>, <span class="tag">kbd</span>, <span class="tag">samp</span>,<span class="tag">pre</span> *, <span class="tag">code</span> *, <span class="tag">textarea</span> *, <span class="tag">tt</span> *, <span class="tag">kbd</span> *, <span class="tag">samp</span> * <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> Consolas,Stxihei <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div></pre></figure>
@@ -54,13 +57,16 @@
 <p>以上语句只会单独替换宋体，但是写法要注意，中西文的字体名字都要写上，不需要特别声明粗体，举一反三写之。</p>
 
     </div>
-    <div class="date">2014-11-17</div>
 </div>
-    <div id="foot">&copy; 2014 Naog
- · <a href="http://hexo.io/" target="_blank">Hexo</a>
- · <a href="https://github.com/" target="_blank">GitHub</a>
- · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
 </div>
-    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+<div id="Bottom"><div class="content">
+    <div class="inner">&copy; 2015 NAOG<b class="snow">·</b>
+        <a href="http://hexo.io/" target="_blank">HEXO</a><b class="snow">·</b>
+        <a href="https://github.com/" target="_blank">GITHUB</a><b class="snow">·</b>
+        <a href="https://gitcafe.com/" target="_blank">GITCAFE</a><b class="snow">·</b>
+        <a href="https://www.v2ex.com/" target="_blank">V2EX</a>
+    </div>
+    <span class="backtop"><a href="javascript:scroll(0,0)">回 到 顶 部</a></span>
+</div></div>
 </body>
 </html>

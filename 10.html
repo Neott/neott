@@ -7,10 +7,12 @@
     <link rel='stylesheet' href='/style.css' media='screen' type='text/css'>
 </head>
 <body>
-<div id="world" class="drop-shadow">
-    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
-<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
-    <div id="content">
+<div id="Top"><div class="content">
+    <div class="home"><a href="/">亂碼週刊</a></div>
+    <div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div>
+</div></div>
+<div id="Wrapper">
+    <div class="content main">
 
     <div class="menu  button">
         <a href="/">网站首页</a>
@@ -24,12 +26,13 @@
     
     <a href="/tags/劫持/">劫持</a>
 
-    </div>
-    
+        
     
           <h1>摆脱宽带运营商的劫持</h1>
     
 
+        <span class="date">2015-01-29</span>
+    </div>
     <div class="post">
         <p>宽带运营商对用户的劫持已经到了令人发指地步，目前我所在的宽带环境时刻出现的劫持行为有，DNS劫持和对百度搜索结果干预加尾巴的方式。对于DNS劫持最直接的办法就是其他的公用DNS，但目前在遇到无法解析域名的时候似乎不怎么奏效，干脆在HOSTS文件中屏蔽吧：</p>
 <figure class="highlight"><pre><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror1.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror2.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror3.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror4.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror5.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror6.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror7.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror8.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror9.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div></pre></figure>
@@ -41,13 +44,16 @@
 <p>这时<code>IP安全策略，在本地计算机</code>下就有了一个<code>阻止劫持</code>的项，里面的规则都是刚才两步已经设置好的，只需在上面右键点选分配即可完成所有操作，这时，再次使用百度搜索的时候，被强制加上的小尾巴已经不见了。</p>
 
     </div>
-    <div class="date">2015-01-29</div>
 </div>
-    <div id="foot">&copy; 2014 Naog
- · <a href="http://hexo.io/" target="_blank">Hexo</a>
- · <a href="https://github.com/" target="_blank">GitHub</a>
- · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
 </div>
-    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+<div id="Bottom"><div class="content">
+    <div class="inner">&copy; 2015 NAOG<b class="snow">·</b>
+        <a href="http://hexo.io/" target="_blank">HEXO</a><b class="snow">·</b>
+        <a href="https://github.com/" target="_blank">GITHUB</a><b class="snow">·</b>
+        <a href="https://gitcafe.com/" target="_blank">GITCAFE</a><b class="snow">·</b>
+        <a href="https://www.v2ex.com/" target="_blank">V2EX</a>
+    </div>
+    <span class="backtop"><a href="javascript:scroll(0,0)">回 到 顶 部</a></span>
+</div></div>
 </body>
 </html>

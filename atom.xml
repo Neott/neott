@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://xote.tk/"/>
-  <updated>2015-03-30T09:33:52.519Z</updated>
+  <updated>2015-04-01T02:44:58.996Z</updated>
   <id>http://xote.tk/</id>
   
   <author>
@@ -19,8 +19,9 @@
     <link href="http://xote.tk/14.html"/>
     <id>http://xote.tk/14.html</id>
     <published>2015-03-22T13:01:59.000Z</published>
-    <updated>2015-03-23T07:49:28.111Z</updated>
-    <content type="html"><![CDATA[<p><code>本文长期不定时更新</code>：作为身边朋友们的“电脑高手”，除了能随时搞定故障快速装系统之外，还需“涉软甚广”来提升逼格，本着<code>小巧、实用、高效</code>的原则，这里记录一下我经常使用的软件们。</p>
+    <updated>2015-03-31T15:22:49.090Z</updated>
+    <content type="html"><![CDATA[<h4 id="本文长期不定时更新">本文长期不定时更新</h4>
+<p>作为身边朋友们的“电脑高手”，除了能随时搞定故障快速装系统之外，还需“涉软甚广”来提升逼格，本着<code>小巧、实用、高效</code>的原则，这里记录一下我经常使用的软件们。</p>
 <h3 id="文字编辑">文字编辑</h3>
 <ul>
 <li><a href="http://cn.everedit.net/" target="_blank" rel="external">EverEdit</a>：顶级文本编辑器（强烈推荐），替代系统记事本，支持众多语言。</li>
@@ -77,8 +78,9 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><code>本文长期不定时更新</code>：作为身边朋友们的“电脑高手”，除了能随时搞定故障快速装系统之外，还需“涉软甚广”来提升逼格，本着<code>小巧、实用、高效</code>的原则，这里记录一下我经常使用的软件们。</p>
-<h3 id="文字编辑">文字编辑</]]>
+    <![CDATA[<h4 id="本文长期不定时更新">本文长期不定时更新</h4>
+<p>作为身边朋友们的“电脑高手”，除了能随时搞定故障快速装系统之外，还需“涉软甚广”来提升逼格，本着<code>小巧、实用、高效</code>的原则，这里记录一下我经常使用的软件们。</p>
+<h3 id="文]]>
     </summary>
     
       <category term="Windows" scheme="http://xote.tk/tags/Windows/"/>
@@ -92,7 +94,7 @@
     <link href="http://xote.tk/13.html"/>
     <id>http://xote.tk/13.html</id>
     <published>2015-03-12T16:00:00.000Z</published>
-    <updated>2015-03-18T14:02:54.647Z</updated>
+    <updated>2015-03-30T09:53:35.342Z</updated>
     <content type="html"><![CDATA[<p>Hexo 3.0 Bug 略多，降级到2.8：</p>
 <figure class="highlight"><pre><div class="line">npm uninstall hexo hexo-cli hexo-server hexo-generator-index hexo-generator-archive hexo-generator-category hexo-generator-tag hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-renderer-marked hexo-renderer-stylus</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install -g hexo<span class="comment">@2.8.3</span></div><div class="line">hexo init</div><div class="line">npm install</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">卸载高版本插件&安装指定版本插件</div><div class="line">npm uninstall hexo-renderer-ejs hexo-renderer-marked hexo-renderer-stylus</div><div class="line">npm install hexo-renderer-ejs<span class="comment">@0.1.0 hexo-renderer-marked@0.1.0 hexo-renderer-stylus@0.1.0 hexo-generator-feed@0.2.1 hexo-generator-sitemap@0.2.0</span></div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install hexo-gzip</div></pre></figure>
 
@@ -127,7 +129,7 @@
     <link href="http://xote.tk/12.html"/>
     <id>http://xote.tk/12.html</id>
     <published>2015-03-07T16:00:00.000Z</published>
-    <updated>2015-03-18T14:51:47.697Z</updated>
+    <updated>2015-03-30T09:53:37.592Z</updated>
     <content type="html"><![CDATA[<p>方法1：控制面板 - Flash Player - 播放 - <code>阻止所有站点使用对等协助网络</code>。</p>
 <p>方法2： 打开<a href="http://www.macromedia.com/support/documentation/cn/flashplayer/help/settings_manager09.html" target="_blank" rel="external">这个网址</a>勾选<code>对所有用户禁用P2P上行链</code>。</p>
 <p>方法3：在CMD中依次输入以下命令:</p>
@@ -150,7 +152,7 @@
     <link href="http://xote.tk/11.html"/>
     <id>http://xote.tk/11.html</id>
     <published>2015-01-29T16:00:00.000Z</published>
-    <updated>2015-03-18T14:56:55.125Z</updated>
+    <updated>2015-03-30T09:53:40.312Z</updated>
     <content type="html"><![CDATA[<p>本人是Chrome重度用户，这里贴一下Chrome的相关配置，以防日后丢失数据后可方便找回。</p>
 <h3 id="chrome://flags/">chrome://flags/</h3>
 <ul>
@@ -212,7 +214,7 @@
     <link href="http://xote.tk/10.html"/>
     <id>http://xote.tk/10.html</id>
     <published>2015-01-28T16:00:00.000Z</published>
-    <updated>2015-03-18T14:51:56.013Z</updated>
+    <updated>2015-03-30T09:53:43.359Z</updated>
     <content type="html"><![CDATA[<p>宽带运营商对用户的劫持已经到了令人发指地步，目前我所在的宽带环境时刻出现的劫持行为有，DNS劫持和对百度搜索结果干预加尾巴的方式。对于DNS劫持最直接的办法就是其他的公用DNS，但目前在遇到无法解析域名的时候似乎不怎么奏效，干脆在HOSTS文件中屏蔽吧：</p>
 <figure class="highlight"><pre><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror1.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror2.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror3.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror4.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror5.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror6.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror7.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror8.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div><div class="line"><span class="number">127.0</span>.<span class="number">0.1</span>    hndnserror9.wo.<span class="keyword">com</span>.<span class="keyword">cn</span></div></pre></figure>
 
@@ -238,13 +240,13 @@
     <link href="http://xote.tk/9.html"/>
     <id>http://xote.tk/9.html</id>
     <published>2015-01-06T16:00:00.000Z</published>
-    <updated>2015-03-18T13:45:49.613Z</updated>
+    <updated>2015-04-01T01:54:29.452Z</updated>
     <content type="html"><![CDATA[<p>今天又把Hexo折腾了一下，让其可以同时部署到国外的GitHub和国内的Gitcafe，等于是在国内增加了一个镜像，再通过DNSPod智能解析域名，让电信联通教育网的用户访问到托管在GitCafe的Hexo，否则访问到GitHub，一是优化了在国内的速度，二是给数据增加多一个备份。</p>
 <p>实现这个功能首先要在GitCafe获得一个帐号（使用的用户名和邮箱最好与GitHub的一致），添加SSH Key，建立与用户名一样的<code>repo</code>，可以参见之前的小文：<a href="/7.html">快速开始Hexo的正确姿势</a>，其次，我们需要修改Hexo仓库根目录下的<code>_config.yml</code>文件，打开并拉到最后，修改成这个样子（在GitCafe中，需要注意大小写）:</p>
 <figure class="highlight"><pre><div class="line">deploy:</div><div class="line">  <span class="class"><span class="keyword">type</span>: <span class="title">git</span></span></div><div class="line">  repo:</div><div class="line">    github: https:<span class="comment">//github.com/jack/jack.github.io.git,master</span></div><div class="line">    gitcafe: https:<span class="comment">//gitcafe.com/jack/jack.git,gitcafe-pages</span></div></pre></figure>
 
 <p>随后执行<code>hexo d -g</code>生成部署命令的时候，数据就会自动部署到两家平台，这时候，你的GitCafe版的Hexo地址是<code>jack.gitcafe.io</code>。尝试这分别<code>ping</code>一下两家平台提供的二级域名，会发现GitCafe确实比GitHub快了许多。为了让它自动选择平台，需要在<a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSPod</a>相应的域名管理页，分别设置两种八项解析记录，：</p>
-<center><a href="http://dn-xair.qbox.me/img/00801.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00801.png" alt="域名解析设置"></a><br>域名解析设置</center>
+<center><a href="http://dn-naog.qbox.me/00901.png" target="_blank" rel="external"><img src="http://dn-naog.qbox.me/00901.png" alt="域名解析设置"></a><br>域名解析设置</center>
 
 <p>其中，GitHub指向的记录值为<code>nusername.github.io.</code>，而GitCafe需要在项目设置中添加自定义域名，解析里指向<code>gitcafe.io.</code>，这里不推荐直接绑定IP，因为用<code>CNAME</code>的方式，两个平台会根据用户位置而自动分配链接到最近的服务器，以保证页面是最快速度呈现，这也算是同时使用了两个平台的CDN吧。</p>
 <p>PS.既然已经把Hexo同时部署到了两个Git平台，那么顺便说说如何把Hexo同时备份到两个平台，打开目录文件<code>.git\config</code>，添加以下代码：</p>
@@ -271,7 +273,7 @@
     <link href="http://xote.tk/8.html"/>
     <id>http://xote.tk/8.html</id>
     <published>2015-01-02T16:00:00.000Z</published>
-    <updated>2015-03-18T13:45:43.927Z</updated>
+    <updated>2015-03-30T09:53:51.769Z</updated>
     <content type="html"><![CDATA[<p>在2015年的第一天，我寻思给电脑也清理一下过个元旦吧，然后就手欠把主板CPU针脚干断两根，推到一片，主板送修后把硬盘接到了家用的另外一台电脑，恰遇如何备份和恢复Hexo的问题，这里便记录一下这个情况，高手可以直接无视。</p>
 <h3 id="备份Hexo的两种方式">备份Hexo的两种方式</h3>
 <p>第一种方式比较简单，直接把Hexo的文件夹放进Dropbox或其他同步盘里，在重装系统或另外一台电脑同步下来就行了。</p>
@@ -307,7 +309,7 @@
     <link href="http://xote.tk/7.html"/>
     <id>http://xote.tk/7.html</id>
     <published>2014-12-23T16:00:00.000Z</published>
-    <updated>2015-03-18T13:45:34.715Z</updated>
+    <updated>2015-03-30T09:54:26.530Z</updated>
     <content type="html"><![CDATA[<p>Hexo是很好的文章管理工具，一经使用我已经爱不释手。看过各种Hexo的安装教程之后，本码盲也成功召唤了一头Hexo坐骑，但是回头想想有些教程的内容过分详细、条例不清晰的原因往往也会给新手（包括我）造成出错的麻烦，于是在此梳理一番（本姿势仅适用于Win平台）。</p>
 <h3 id="开始Hexo前的准备工作">开始Hexo前的准备工作</h3>
 <ol>
@@ -363,7 +365,7 @@
     <link href="http://xote.tk/6.html"/>
     <id>http://xote.tk/6.html</id>
     <published>2014-12-09T16:00:00.000Z</published>
-    <updated>2015-03-18T13:45:28.752Z</updated>
+    <updated>2015-03-30T09:54:32.970Z</updated>
     <content type="html"><![CDATA[<p>GoAgent是一个基于Google Appengine的代理工具，通过这个神器，可以更加自由的使用互联网。下面一起来搭建专属的科学上网利器吧。</p>
 <p>既然是专属的利器，首先需要申请一批自己的appid,登录<a href="https://appengine.google.com/" target="_blank" rel="external">Google App Engine</a>(如果没有Google帐号迅速注册一个先)创建一个GAE应用，一个账户可以创建10个应用，每个应用每天1G流量，如果你整天都挂在网上，我建议你一次创建10个应用，如:goa1、goa2……，然后记住这些appid。</p>
 <p>首先需要从GoAgent的主页<a href="https://github.com/goagent/goagent" target="_blank" rel="external">https://github.com/goagent/goagent</a>下载最新版本，修改 local\proxy.ini 中的 [gae] 下的 appid = 你的appid(多appid请用|隔开)。运行 uploader.bat 或 uploader.py 开始上传, 成功后即可使用了。</p>
@@ -385,7 +387,7 @@
     <link href="http://xote.tk/4.html"/>
     <id>http://xote.tk/4.html</id>
     <published>2014-11-27T16:00:00.000Z</published>
-    <updated>2015-03-18T14:52:16.432Z</updated>
+    <updated>2015-03-30T09:53:05.582Z</updated>
     <content type="html"><![CDATA[<p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
 <p>打开注册表，打开到：<code>HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics</code>分别改动”MinWidth” 任务栏宽度、”PaddedBorderWidth”边框填充宽度、”BorderWidth”边框宽度，这三项为想要的数值。写成一个注册处理语法：</p>
 <figure class="highlight"><pre><div class="line">Windows Registry Editor <span class="keyword">Version</span> <span class="number">5.00</span></div><div class="line">;边框宽度与任务栏图标的宽度</div><div class="line">[HKEY_CURRENT_USER\<span class="keyword">Control</span> <span class="keyword">Panel</span>\Desktop\WindowMetrics]</div><div class="line"><span class="string">"MinWidth"</span>=<span class="string">"54"</span></div><div class="line"><span class="string">"PaddedBorderWidth"</span>=<span class="string">"0"</span></div><div class="line"><span class="string">"BorderWidth"</span>=<span class="string">"0"</span></div></pre></figure>
@@ -408,7 +410,7 @@
     <link href="http://xote.tk/5.html"/>
     <id>http://xote.tk/5.html</id>
     <published>2014-11-27T16:00:00.000Z</published>
-    <updated>2015-03-18T14:52:04.978Z</updated>
+    <updated>2015-03-30T09:54:35.928Z</updated>
     <content type="html"><![CDATA[<p>经常使用电脑并试用各种软件的我，对自动添加随系统启动的流氓软件深表痛恨，各种流氓软件拍扁了脑袋抢占资源启动自己，开机先卡个两分钟才能使用电脑。但是我只是需要用你们的时候才会打开你们而已，于是乎全部禁用。</p>
 <p>AHK全称Autohotkey，是个自动化的好软件，我虽然不是很精通，但是三两句小白代码足以实现自主控制自启动软件的需要。</p>
 <figure class="highlight"><pre><div class="line">Sleep 3000</div><div class="line">	Run D:<span class="command">\ATOM</span><span class="command">\Listary</span><span class="command">\Listary</span>.exe</div><div class="line">Sleep 5000</div><div class="line">	Run D:<span class="command">\INT</span><span class="command">\ADM</span><span class="command">\ADM</span>.exe</div><div class="line">ExitApp</div></pre></figure>
@@ -431,7 +433,7 @@
     <link href="http://xote.tk/3.html"/>
     <id>http://xote.tk/3.html</id>
     <published>2014-11-17T16:00:00.000Z</published>
-    <updated>2015-03-18T13:45:13.534Z</updated>
+    <updated>2015-04-01T01:53:21.243Z</updated>
     <content type="html"><![CDATA[<p>作为一个桌面图标多了会死星人，我习惯用热键呼出Listary框打开需要的软件，但Listary默认的搜索结果有点不尽人意，原因有3：</p>
 <ul>
 <li>很多软件的安装目录含有多个相似名称的文件</li>
@@ -441,11 +443,11 @@
 <p>以上三个原因，造成通过Listary启动应用程序的命中率不足，或需要更多的按键动作（上下选取）才能打开所需软件，岂不是还不如直接桌面戳图标来的更有效率？是不是要换成其他的快速启动软件，可其他的快速启动软件又不能快速搜索全磁盘文件……</p>
 <p>换一个已经上手的高频率使用的软件是个更纠结的问题，只需两步手动设置，就可以使Listary启动程序的命中率提高到99%~100%，且按键更少。</p>
 <p>第一步：把电脑上装的所有软件的快捷方式（常用文件夹也可以）放到同一个文件夹，如<code>D:\run\</code>，并把快捷方式的名字改成2-3个字母，如我把Dropbox改成DB，把Photoshop改成PS，中文也可以，因为Listary能匹配拼音。</p>
-<center><a href="http://dn-xair.qbox.me/img/00301.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00301.png" alt="建立快捷方式库"></a><br>建立快捷方式库</center>
+<center><a href="http://dn-naog.qbox.me/00301.png" target="_blank" rel="external"><img src="http://dn-naog.qbox.me/00301.png" alt="建立快捷方式库"></a><br>建立快捷方式库</center>
 
 <p>第二步：打开Listary选项菜单，切换到<code>启动程序</code>项，把默认自带的<code>%star_menu%</code>到<code>%default_launch%</code>前面的<code>√</code>去掉，再把<code>D:\run\</code>加进去。</p>
 <p>大功告成，之后启动Photoshop只需在呼出Listary后按PS就可以回车键打开了，命中率几乎100%，如果安装的软件实在太多，建议把快捷方式的名字改成3~5个字母。</p>
-<center><a href="http://dn-xair.qbox.me/img/00302.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00302.png" alt="输入简单的字母"></a><br>输入简单的字母</center>]]></content>
+<center><a href="http://dn-naog.qbox.me/00302.png" target="_blank" rel="external"><img src="http://dn-naog.qbox.me/00302.png" alt="输入简单的字母"></a><br>输入简单的字母</center>]]></content>
     <summary type="html">
     <![CDATA[<p>作为一个桌面图标多了会死星人，我习惯用热键呼出Listary框打开需要的软件，但Listary默认的搜索结果有点不尽人意，原因有3：</p>
 <ul>
@@ -464,10 +466,10 @@
     <link href="http://xote.tk/2.html"/>
     <id>http://xote.tk/2.html</id>
     <published>2014-11-16T16:00:00.000Z</published>
-    <updated>2015-03-18T14:11:48.154Z</updated>
+    <updated>2015-04-01T01:53:14.087Z</updated>
     <content type="html"><![CDATA[<p><code>Update:2014.11.28</code> 在<a href="chrome://flags/" target="_blank" rel="external">chrome://flags/</a>中启用<code>停用DirectWrite</code>，即可渲染。</p>
 <p>自从用了Mactype这个媲美Mac OS渲染神器，从Win XP到Win8.1，每次装好系统第一件事就是安装调试Mactype，没有这货，Win平台的字体兼职刺瞎狗眼。但是升级到64位Win8.1后，问题就出现了。不能渲染IE这就不说了，但是我作为一个重度Chrome用户，除了Chrome不会用其他的浏览器，Mactype在64位Win8.1下，居然把网页渲染成了这个狗样子！</p>
-<center><a href="http://dn-xair.qbox.me/img/00201.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00201.png" alt="使用前"></a><br>使用前</center>
+<center><a href="http://dn-naog.qbox.me/00201.png" target="_blank" rel="external"><img src="http://dn-naog.qbox.me/00201.png" alt="使用前"></a><br>使用前</center>
 
 <p>岂能让这等惨不忍睹的页面出现在我的屏幕，无渲染的页面也是入不了眼的，于是开始曲线救国，让精美的渲染字体重回眼底。</p>
 <p>Mactype的配置文件中，有一项<code>[ExcludeSub]</code>解释为不进行热替换字体的程序，但会渲染字体。先把<code>Chrome.exe</code>添加到该项的下一行。然后在浏览器的设置中进行替换字体就可以了。</p>
@@ -477,7 +479,7 @@
 <figure class="highlight css"><pre><div class="line">* <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"XHei OSX"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div></pre></figure>
 
 <p>XHei OSX 是我替换的字体，你可以替换任意字体。这时，再打开网页，字体就会变成了这样。</p>
-<center><a href="http://dn-xair.qbox.me/img/00202.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00202.png" alt="使用后"></a><br>使用后</center>
+<center><a href="http://dn-naog.qbox.me/00202.png" target="_blank" rel="external"><img src="http://dn-naog.qbox.me/00202.png" alt="使用后"></a><br>使用后</center>
 
 <p>但是有些网页使用了webfont，即图标文字，如淘宝、支付宝、天猫等，或代码块区域，这时候我们要在全局字体的下面加入一些例外。</p>
 <figure class="highlight css"><pre><div class="line"><span class="comment">/* for taobao.com, alipay.com, tmail.com */</span></div><div class="line"><span class="class">.iconfont</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"global"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="class">.mui-iconfont</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"mui-iconfont"</span>, <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="tag">a</span> <span class="class">.icon</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> <span class="string">"vip-font"</span>, <span class="string">"iconfont"</span>, <span class="string">"shop-iconfont"</span>, <span class="string">"global-iconfont"</span>, <span class="string">"uxiconfont"</span>, <span class="string">"rei"</span> <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="comment">/* for github.com */</span></div><div class="line"><span class="tag">span</span> <span class="class">.octicon</span> <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> octicons <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div><div class="line"><span class="comment">/* for Code */</span></div><div class="line"><span class="tag">pre</span>, <span class="tag">code</span>, <span class="tag">textarea</span>, <span class="tag">tt</span>, <span class="tag">kbd</span>, <span class="tag">samp</span>,<span class="tag">pre</span> *, <span class="tag">code</span> *, <span class="tag">textarea</span> *, <span class="tag">tt</span> *, <span class="tag">kbd</span> *, <span class="tag">samp</span> * <span class="rules">{<span class="rule"><span class="attribute">font-family</span>:<span class="value"> Consolas,Stxihei <span class="important">!important</span></span></span>;<span class="rule">}</span></span></div></pre></figure>
@@ -502,7 +504,7 @@
     <link href="http://xote.tk/1.html"/>
     <id>http://xote.tk/1.html</id>
     <published>2014-11-15T16:00:00.000Z</published>
-    <updated>2015-03-18T13:42:36.961Z</updated>
+    <updated>2015-03-30T09:53:19.144Z</updated>
     <content type="html"><![CDATA[<p>常用的写作标记：</p>
 <figure class="highlight"><pre><div class="line">&lt;h1&gt;<span class="keyword">ex</span>&lt;/h1&gt; | #ex  （<span class="number">1</span>~<span class="number">6</span>个#对应H1~H6）</div><div class="line">&lt;<span class="keyword">em</span>&gt;<span class="keyword">ex</span>&lt;/<span class="keyword">em</span>&gt; | *<span class="keyword">ex</span>* | _ex_</div><div class="line">&lt;strong&gt;<span class="keyword">ex</span>&lt;/strong&gt; | **<span class="keyword">ex</span>** | __ex__</div></pre></figure>
 

@@ -7,10 +7,12 @@
     <link rel='stylesheet' href='/style.css' media='screen' type='text/css'>
 </head>
 <body>
-<div id="world" class="drop-shadow">
-    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
-<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
-    <div id="content">
+<div id="Top"><div class="content">
+    <div class="home"><a href="/">亂碼週刊</a></div>
+    <div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div>
+</div></div>
+<div id="Wrapper">
+    <div class="content main">
 
     <div class="menu  button">
         <a href="/">网站首页</a>
@@ -24,12 +26,13 @@
     
     <a href="/tags/Hexo/">Hexo</a>
 
-    </div>
-    
+        
     
           <h1>Hexo Tips 持续贴</h1>
     
 
+        <span class="date">2015-03-13</span>
+    </div>
     <div class="post">
         <p>Hexo 3.0 Bug 略多，降级到2.8：</p>
 <figure class="highlight"><pre><div class="line">npm uninstall hexo hexo-cli hexo-server hexo-generator-index hexo-generator-archive hexo-generator-category hexo-generator-tag hexo-deployer-git hexo-generator-feed hexo-generator-sitemap hexo-renderer-marked hexo-renderer-stylus</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install -g hexo<span class="comment">@2.8.3</span></div><div class="line">hexo init</div><div class="line">npm install</div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">卸载高版本插件&安装指定版本插件</div><div class="line">npm uninstall hexo-renderer-ejs hexo-renderer-marked hexo-renderer-stylus</div><div class="line">npm install hexo-renderer-ejs<span class="comment">@0.1.0 hexo-renderer-marked@0.1.0 hexo-renderer-stylus@0.1.0 hexo-generator-feed@0.2.1 hexo-generator-sitemap@0.2.0</span></div><div class="line"><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span></div><div class="line">npm install hexo-gzip</div></pre></figure>
@@ -50,13 +53,16 @@
 
 
     </div>
-    <div class="date">2015-03-13</div>
 </div>
-    <div id="foot">&copy; 2014 Naog
- · <a href="http://hexo.io/" target="_blank">Hexo</a>
- · <a href="https://github.com/" target="_blank">GitHub</a>
- · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
 </div>
-    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+<div id="Bottom"><div class="content">
+    <div class="inner">&copy; 2015 NAOG<b class="snow">·</b>
+        <a href="http://hexo.io/" target="_blank">HEXO</a><b class="snow">·</b>
+        <a href="https://github.com/" target="_blank">GITHUB</a><b class="snow">·</b>
+        <a href="https://gitcafe.com/" target="_blank">GITCAFE</a><b class="snow">·</b>
+        <a href="https://www.v2ex.com/" target="_blank">V2EX</a>
+    </div>
+    <span class="backtop"><a href="javascript:scroll(0,0)">回 到 顶 部</a></span>
+</div></div>
 </body>
 </html>

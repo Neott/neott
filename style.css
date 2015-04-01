@@ -1,9 +1,5 @@
 *{margin:0;padding:0}
-body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;color:#444;word-break:break-all;background:#F7F7F7 url("http://dn-xair.qbox.me/img/background.png") repeat}
-#world{width:600px;margin:50px auto 20px;-moz-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);-webkit-box-shadow:0 0 40px rgba(0, 0, 0, 0.15);box-shadow:0 0 40px rgba(0, 0, 0, 0.15)}
-.drop-shadow {position:relative}
-.drop-shadow:before,.drop-shadow:after{content:"";position:absolute;z-index:-1;bottom:15px;left:10px;width:50%;height:20%;-webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);-moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);box-shadow:0 15px 15px rgba(0, 0, 0, 0.7);-webkit-transform:rotate(-2deg);-moz-transform:rotate(-2deg);-o-transform:rotate(-2deg);transform:rotate(-2deg)}
-.drop-shadow:after{right:10px;left:auto;-webkit-transform:rotate(2deg);-moz-transform:rotate(2deg);-o-transform:rotate(2deg);transform:rotate(2deg)}
+body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;color:#444;word-break:break-all}
 /*--------------------------------*/
     .button a{background:#ffffff;border:1px solid #e5e5e5;
             background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
@@ -15,72 +11,75 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     .button a:hover{color:#333;border:1px solid #ccc}
     /*--------------------------------*/
     a,a:hover,.post .button a,.post .button a:hover{text-decoration:none}
-    .post a,.post a:hover,#foot a:hover{text-decoration:underline}
+    .post a,.post a:hover,#Bottom a:hover{text-decoration:underline}
     /*--------------------------------*/
     a,.meta a:hover/*,H2 a:hover*/,#backtop a:hover{color:#678087}
-    #topbar a,.nav,.date,#foot,#foot a,#backtop a{color:#999}
+    H4,.nav,.date,#Bottom,#Bottom a,#backtop a{color:#999}
     a:hover,H2 a{color:#3d5256}
-    .menu,.button a,center{color:#778087}
-    .item li:hover,H1{background:#F7F7F7}
+    .button a,center{color:#778087}
+    .item li:hover{background:#F7F7F7}
     /*--------------------------------*/
-    #topbar a,.button a{display:inline-block;line-height:1;border-radius:3px;padding:5px}
-    .menu,H1,H3,.item li,.archive/* ,.date */{border-bottom:1px solid #CCC}
-    .menu,#foot{background:#EFEFEF}
-    .menu,pre{padding:10px}
-    H3,.markpage{border-top:1px solid #CCC}
-    #topbar,.item li,.nav,#foot{line-height:50px}
-    #topbar,.item li,.post,H1,H3,.post blockquote,.post ul, .post ol,.comment{padding:0 10px}
+    .button a{display:inline-block;line-height:1;border-radius:3px;padding:5px;margin-right: 5px;}
+    .menu,.main,H3,H4,.item li,.archive{border-bottom: 1px solid #e2e2e2;}
+    .home,.menu,pre,H3,H4,.inner{padding:10px}
+    .item li{line-height:50px}
+    #Top,.item li,.post,.post blockquote,.post ul, .post ol,.comment{padding:0 10px}
     .sup,.arrow,.archive-count{font-weight:bold}
     /*--------------------------------*/
-    H1,H2,H3,.post p strong{font-weight:normal}
-    H2,H3,.home a,.post p,.post ul, .post ol{font-size:14px}
-    H1,.nav,.date,.error,#foot{text-align:center}
-    H3,.post p,center{margin-top:20px}
-    H1{font-size:18px;line-height:42px}
-    H3{margin:20px -10px 0;line-height:2.1;background:#F3FAFF;border-left: 5px solid #c7e8ff}
+    H1,H2,H3,H4,.post p strong{font-weight:normal}
+    H2,H3,H4,.post p,.post ul, .post ol{font-size:14px}
+    .nav,.error{text-align:center}
+    .post p,center{margin-bottom:20px}
+    H1{font-size:24px;padding-top: 10px;}
+    H3{margin:0 -10px;background:#F3FAFF;border-left: 5px solid #c7e8ff;}
+    H3,.markpage{border-top: 1px solid #e2e2e2}
+    H3,H4{line-height:1}
+    H4{margin:-10px -10px 10px;background-color: #f9f9f9;border-left: 5px solid #f0f0f0;}
 /*--------------------------------*/
-#topbar{background:#222;border-radius:3px 3px 0 0;position:relative}
-#topbar a:hover{background:#444;color:#CCC}
-    .home a,.topr a{letter-spacing:3px}
-    .topr{position:absolute;right:10px;top:0;text-align:right}
-    .topr a{margin-left:3px}
+#Top{background: #fff;height: 44px;font-size:15px;background-size: 44px 44px;border-bottom: 1px solid rgba(0, 0, 0, 0.22);}
+    #Top a{color:#556;}
+    #Top a:hover{color: #99a;}
+    .topr{text-align:right}
+    .topr a{margin-left:15px}
+    .topr,.date,.backtop{position:absolute;right:10px;top:10px;}
 /*--------------------------------*/
-#content{background:#FFF;border-left:1px solid #CCC;border-right:1px solid #CCC}
+#Wrapper{background:#E2E2E2 url("https://dn-naog.qbox.me/shadow_light.png") repeat-x;padding: 20px 0}
+    .content{width:600px;margin:0 auto;position:relative}
+    .main{background-color:#fff;border-radius: 3px;box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1)}
     .sup,.archive-count{margin-left:3px;color:#BCBCBC;font-size:11px}
     .arrow{color:#000;font-family:'Lucida Grande',Tahoma}
     /*--------------------------------*/
-    .item li/* ,.date */{list-style-type:none}
+    .item li{list-style-type:none}
     .meta{float:right} 
     .meta,.meta a{color:#BBB}
     /*--------------------------------*/
     center img{max-width:580px}
-    /*.post{font-family:Georgia,Arial}*/
+    .post{margin:10px 0 -10px;/*font-family:Georgia,Arial*/}
     .post p{line-height:24px}
     .post p em{font-style:normal;background:#98FB98}
     .post p strong{font-style:normal;background:#FF0}
-    .post blockquote{margin:20px -10px 0;background:#DDD}
+    .post blockquote,.post ul, .post ol,pre{margin:0 -10px 20px}
+    .post blockquote{background:#f8f8f8}
     .post blockquote p{margin:0;padding:10px 0}
-    .post ul, .post ol{margin:20px -10px 0;list-style: square inside url('/arrow.gif')}
+    .post ul, .post ol{list-style: square inside url('/arrow.gif')}
     .post ul li, .post ol li{margin-top:10px}
-    .date{padding:20px 0}
     /*--------------------------------*/
-    .nav{position:relative;height:50px}
+    .nav{position:relative;line-height:39px}
     .nav span.prev{position:absolute;left:10px}
-    .nav span.next{position:absolute;right:10px}
+    .nav span.next{position:absolute;right:5px}
     /*--------------------------------*/
-    .mark{padding:10px 0 5px}
+    .mark{margin-bottom:15px;}
     .mark a{margin-bottom:4px}
     .archive{padding:10px 10px 5px}
     .archive a{margin:0 5px 5px 0}
     .error{padding:80px 0}
 /*--------------------------------*/
-#foot{border:1px solid #CCC;border-radius:0 0 3px 3px}
-#backtop{position:fixed;left:50%;bottom:20px;margin-left:310px}
-#backtop a{display:block}
+#Bottom{border-top: 1px solid rgba(0, 0, 0, 0.22);background: #fff;}
+.snow{margin:0 6px 0 10px;font-weight: bold;}
 table{border-spacing:0;width:100%}
 /*--------------------------------*/
     pre,code{font:12px/1.75em 'Source Code Pro Light',Consolas,Fixedsys,'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;background-color:#272822;color:#DDD}
-    pre{overflow:auto;margin:20px -10px 0;word-wrap:normal}
+    pre{overflow:auto;word-wrap:normal}
     code{padding:0;margin:0}
     p code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #E2E2E2;border-radius:3px;background:#FCFCFC;font-size:13px}
     /*--------------------------------*/

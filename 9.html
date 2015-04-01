@@ -7,10 +7,12 @@
     <link rel='stylesheet' href='/style.css' media='screen' type='text/css'>
 </head>
 <body>
-<div id="world" class="drop-shadow">
-    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
-<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
-    <div id="content">
+<div id="Top"><div class="content">
+    <div class="home"><a href="/">亂碼週刊</a></div>
+    <div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div>
+</div></div>
+<div id="Wrapper">
+    <div class="content main">
 
     <div class="menu  button">
         <a href="/">网站首页</a>
@@ -24,19 +26,20 @@
     
     <a href="/tags/Hexo/">Hexo</a>
 
-    </div>
-    
+        
     
           <h1>把Hexo同时部署到GitHub和GitCafe</h1>
     
 
+        <span class="date">2015-01-07</span>
+    </div>
     <div class="post">
         <p>今天又把Hexo折腾了一下，让其可以同时部署到国外的GitHub和国内的Gitcafe，等于是在国内增加了一个镜像，再通过DNSPod智能解析域名，让电信联通教育网的用户访问到托管在GitCafe的Hexo，否则访问到GitHub，一是优化了在国内的速度，二是给数据增加多一个备份。</p>
 <p>实现这个功能首先要在GitCafe获得一个帐号（使用的用户名和邮箱最好与GitHub的一致），添加SSH Key，建立与用户名一样的<code>repo</code>，可以参见之前的小文：<a href="/7.html">快速开始Hexo的正确姿势</a>，其次，我们需要修改Hexo仓库根目录下的<code>_config.yml</code>文件，打开并拉到最后，修改成这个样子（在GitCafe中，需要注意大小写）:</p>
 <figure class="highlight"><pre><div class="line">deploy:</div><div class="line">  <span class="class"><span class="keyword">type</span>: <span class="title">git</span></span></div><div class="line">  repo:</div><div class="line">    github: https:<span class="comment">//github.com/jack/jack.github.io.git,master</span></div><div class="line">    gitcafe: https:<span class="comment">//gitcafe.com/jack/jack.git,gitcafe-pages</span></div></pre></figure>
 
 <p>随后执行<code>hexo d -g</code>生成部署命令的时候，数据就会自动部署到两家平台，这时候，你的GitCafe版的Hexo地址是<code>jack.gitcafe.io</code>。尝试这分别<code>ping</code>一下两家平台提供的二级域名，会发现GitCafe确实比GitHub快了许多。为了让它自动选择平台，需要在<a href="https://www.dnspod.cn/" target="_blank" rel="external">DNSPod</a>相应的域名管理页，分别设置两种八项解析记录，：</p>
-<center><a href="http://dn-xair.qbox.me/img/00801.png" target="_blank" rel="external"><img src="http://dn-xair.qbox.me/img/00801.png" alt="域名解析设置"></a><br>域名解析设置</center>
+<center><a href="http://dn-naog.qbox.me/00901.png" target="_blank" rel="external"><img src="http://dn-naog.qbox.me/00901.png" alt="域名解析设置"></a><br>域名解析设置</center>
 
 <p>其中，GitHub指向的记录值为<code>nusername.github.io.</code>，而GitCafe需要在项目设置中添加自定义域名，解析里指向<code>gitcafe.io.</code>，这里不推荐直接绑定IP，因为用<code>CNAME</code>的方式，两个平台会根据用户位置而自动分配链接到最近的服务器，以保证页面是最快速度呈现，这也算是同时使用了两个平台的CDN吧。</p>
 <p>PS.既然已经把Hexo同时部署到了两个Git平台，那么顺便说说如何把Hexo同时备份到两个平台，打开目录文件<code>.git\config</code>，添加以下代码：</p>
@@ -49,13 +52,16 @@
 <p>此后再部署的时候，就不需要再输入两家的用户和密码了。</p>
 
     </div>
-    <div class="date">2015-01-07</div>
 </div>
-    <div id="foot">&copy; 2014 Naog
- · <a href="http://hexo.io/" target="_blank">Hexo</a>
- · <a href="https://github.com/" target="_blank">GitHub</a>
- · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
 </div>
-    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+<div id="Bottom"><div class="content">
+    <div class="inner">&copy; 2015 NAOG<b class="snow">·</b>
+        <a href="http://hexo.io/" target="_blank">HEXO</a><b class="snow">·</b>
+        <a href="https://github.com/" target="_blank">GITHUB</a><b class="snow">·</b>
+        <a href="https://gitcafe.com/" target="_blank">GITCAFE</a><b class="snow">·</b>
+        <a href="https://www.v2ex.com/" target="_blank">V2EX</a>
+    </div>
+    <span class="backtop"><a href="javascript:scroll(0,0)">回 到 顶 部</a></span>
+</div></div>
 </body>
 </html>

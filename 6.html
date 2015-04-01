@@ -7,10 +7,12 @@
     <link rel='stylesheet' href='/style.css' media='screen' type='text/css'>
 </head>
 <body>
-<div id="world" class="drop-shadow">
-    <div id="topbar"><div class="home"><a href="/">亂碼週刊</a></div>
-<div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div></div>
-    <div id="content">
+<div id="Top"><div class="content">
+    <div class="home"><a href="/">亂碼週刊</a></div>
+    <div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/about/">关于</a></li></div>
+</div></div>
+<div id="Wrapper">
+    <div class="content main">
 
     <div class="menu  button">
         <a href="/">网站首页</a>
@@ -24,12 +26,13 @@
     
     <a href="/tags/GoAgent/">GoAgent</a>
 
-    </div>
-    
+        
     
           <h1>用GoAgent撸一个每天10G流量的科学上网利器</h1>
     
 
+        <span class="date">2014-12-10</span>
+    </div>
     <div class="post">
         <p>GoAgent是一个基于Google Appengine的代理工具，通过这个神器，可以更加自由的使用互联网。下面一起来搭建专属的科学上网利器吧。</p>
 <p>既然是专属的利器，首先需要申请一批自己的appid,登录<a href="https://appengine.google.com/" target="_blank" rel="external">Google App Engine</a>(如果没有Google帐号迅速注册一个先)创建一个GAE应用，一个账户可以创建10个应用，每个应用每天1G流量，如果你整天都挂在网上，我建议你一次创建10个应用，如:goa1、goa2……，然后记住这些appid。</p>
@@ -37,13 +40,16 @@
 <p>Chrome用户通过<a href="https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm" target="_blank" rel="external">Proxy SwitchySharp</a>管理使用Goa能更节省流量。如果你也使用Dropbox的客户端，就在客户端的选项里代理那一栏，选择手动，代理服务器类型为<code>HTTP</code>,服务器为：<code>127.0.0.1:8087</code>。</p>
 
     </div>
-    <div class="date">2014-12-10</div>
 </div>
-    <div id="foot">&copy; 2014 Naog
- · <a href="http://hexo.io/" target="_blank">Hexo</a>
- · <a href="https://github.com/" target="_blank">GitHub</a>
- · <a href="https://gitcafe.com/" target="_blank">GitCafe</a></div>
 </div>
-    <div id="backtop"><a href="javascript:scroll(0,0)">回 到<br>顶 部</a></div>
+<div id="Bottom"><div class="content">
+    <div class="inner">&copy; 2015 NAOG<b class="snow">·</b>
+        <a href="http://hexo.io/" target="_blank">HEXO</a><b class="snow">·</b>
+        <a href="https://github.com/" target="_blank">GITHUB</a><b class="snow">·</b>
+        <a href="https://gitcafe.com/" target="_blank">GITCAFE</a><b class="snow">·</b>
+        <a href="https://www.v2ex.com/" target="_blank">V2EX</a>
+    </div>
+    <span class="backtop"><a href="javascript:scroll(0,0)">回 到 顶 部</a></span>
+</div></div>
 </body>
 </html>
