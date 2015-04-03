@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://xote.tk/"/>
-  <updated>2015-04-03T06:53:20.603Z</updated>
+  <updated>2015-04-03T06:56:16.630Z</updated>
   <id>http://xote.tk/</id>
   
   <author>
@@ -151,16 +151,19 @@
     <link href="http://xote.tk/12.html"/>
     <id>http://xote.tk/12.html</id>
     <published>2015-03-07T16:00:00.000Z</published>
-    <updated>2015-03-30T09:53:37.592Z</updated>
-    <content type="html"><![CDATA[<p>方法1：控制面板 - Flash Player - 播放 - <code>阻止所有站点使用对等协助网络</code>。</p>
-<p>方法2： 打开<a href="http://www.macromedia.com/support/documentation/cn/flashplayer/help/settings_manager09.html" target="_blank" rel="external">这个网址</a>勾选<code>对所有用户禁用P2P上行链</code>。</p>
-<p>方法3：在CMD中依次输入以下命令:</p>
+    <updated>2015-04-03T06:56:10.979Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>方法1：控制面板 - Flash Player - 播放 - <code>阻止所有站点使用对等协助网络</code>。</li>
+<li>方法2： 打开<a href="http://www.macromedia.com/support/documentation/cn/flashplayer/help/settings_manager09.html" target="_blank" rel="external">这个网址</a>勾选<code>对所有用户禁用P2P上行链</code>。</li>
+<li>方法3：在CMD中依次输入以下命令:</li>
+</ul>
 <figure class="highlight"><pre><div class="line">echo <span class="constant">RTMFPP2PDisable</span>=<span class="number">1</span> <span class="input">&gt;&gt; %windir%\system32\<span class="constant">Macromed</span>\<span class="constant">Flash</span>\mms.cfg</span></div><div class="line">echo <span class="constant">RTMFPP2PDisable</span>=<span class="number">1</span> <span class="input">&gt;&gt; %windir%\syswow64\<span class="constant">Macromed</span>\<span class="constant">Flash</span>\mms.cfg</span></div><div class="line">echo <span class="constant">RTMFPP2PDisable</span>=<span class="number">1</span> <span class="input">&gt;&gt; %windir%\system32\mms.cfg</span></div></pre></figure>
 
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>方法1：控制面板 - Flash Player - 播放 - <code>阻止所有站点使用对等协助网络</code>。</p>
-<p>方法2： 打开<a href="http://www.macromedia.com/support/documentation/cn/fla]]>
+    <![CDATA[<ul>
+<li>方法1：控制面板 - Flash Player - 播放 - <code>阻止所有站点使用对等协助网络</code>。</li>
+<li>方法2： 打开<a href="http://www.macromedia.com/support/documentatio]]>
     </summary>
     
       <category term="Flash" scheme="http://xote.tk/tags/Flash/"/>
