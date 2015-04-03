@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://xote.tk/"/>
-  <updated>2015-04-03T06:58:28.495Z</updated>
+  <updated>2015-04-03T06:59:58.679Z</updated>
   <id>http://xote.tk/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://xote.tk/15.html"/>
     <id>http://xote.tk/15.html</id>
     <published>2015-04-03T06:44:40.000Z</published>
-    <updated>2015-04-03T06:48:17.028Z</updated>
+    <updated>2015-04-03T06:59:44.258Z</updated>
     <content type="html"><![CDATA[<h4 id="本文转载自[软件小品]_www-appcheers-com/custom-send-to-html">本文转载自[软件小品] www.appcheers.com/custom-send-to.html</h4>
 <p>当我们右击某个文件或快捷方式时，在弹出的右键菜单中会有一个名为”发送到”的选项，通过它，我们可以将文件快速发送到菜单中的指定项目。而我们通过简单的定义系统的“发送到”菜单，也可以实现快速复制的功能。</p>
 <h3 id="利用_shell:sendto_指令">利用 shell:sendto 指令</h3>
@@ -30,7 +30,7 @@
 <p>当我们右击某个文件或快捷方式时，在弹出的右键菜]]>
     </summary>
     
-      <category term="Windows" scheme="http://xote.tk/tags/Windows/"/>
+      <category term="Sendto" scheme="http://xote.tk/tags/Sendto/"/>
     
       <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
     
