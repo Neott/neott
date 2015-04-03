@@ -1,7 +1,7 @@
 *{margin:0;padding:0}
 body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;color:#444;word-break:break-all}
 /*--------------------------------*/
-    .button a{background:#ffffff;border:1px solid #e5e5e5;
+    .button a{background:#ffffff;border:1px solid #e5e5e5;display:inline-block;border-radius:3px;padding:5px;margin-right: 5px;
             background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff),color-stop(50%,#f3f3f3),color-stop(51%,#ededed), color-stop(100%,#ffffff));
             background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
@@ -19,25 +19,24 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     .button a,center{color:#778087}
     .item li:hover{background:#F7F7F7}
     /*--------------------------------*/
-    .button a{display:inline-block;line-height:1;border-radius:3px;padding:5px;margin-right: 5px;}
+    .button a,H3,H4{line-height:1}
     .menu,.main,H3,H4,.item li,.archive{border-bottom: 1px solid #e2e2e2;}
     .home,.menu,pre,H3,H4,.inner{padding:10px}
     .item li{line-height:50px}
     #Top,.item li,.post,.post blockquote,.post ul, .post ol,.comment{padding:0 10px}
-    .sup,.arrow,.archive-count{font-weight:bold}
+    .sup,.archive-count,.arrow{font-weight:bold}
     /*--------------------------------*/
-    H1,H2,H3,H4,.post p strong{font-weight:normal}
+    H1,H2,H3,H4,.post p em,.post p strong{font-weight:normal;font-style:normal}
     H2,H3,H4,.post p,.post ul, .post ol{font-size:14px}
     .nav,.error{text-align:center}
     .post p,center{margin-bottom:20px}
     H1{font-size:24px;padding-top: 10px;}
     H3{margin:0 -10px;background:#F3FAFF;border-left: 5px solid #c7e8ff;}
     H3,.markpage{border-top: 1px solid #e2e2e2}
-    H3,H4{line-height:1}
     H4{margin:-10px -10px 10px;background-color: #f9f9f9;border-left: 5px solid #f0f0f0;}
 /*--------------------------------*/
 #Top{background: #fff;height: 44px;font-size:15px;background-size: 44px 44px;border-bottom: 1px solid rgba(0, 0, 0, 0.22);}
-    #Top a{color:#556;}
+    #Top a{color:#556;letter-spacing: 3px;}
     #Top a:hover{color: #99a;}
     .topr{text-align:right}
     .topr a{margin-left:15px}
@@ -55,13 +54,13 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     /*--------------------------------*/
     center img{max-width:580px}
     .post{margin:10px 0 -10px;/*font-family:Georgia,Arial*/}
-    .post p{line-height:24px}
-    .post p em{font-style:normal;background:#98FB98}
-    .post p strong{font-style:normal;background:#FF0}
-    .post blockquote,.post ul, .post ol,pre{margin:0 -10px 20px}
+    .post p{line-height:1.6}
+    .post p em{background:#98FB98}
+    .post p strong{background:#FF0}
     .post blockquote{background:#f8f8f8}
+    .post blockquote,.post ul, .post ol,pre{margin:0 -10px 20px}
     .post blockquote p{margin:0;padding:10px 0}
-    .post ul, .post ol{list-style: square inside url('/arrow.gif')}
+    .post ul, .post ol{list-style: square inside /*url('/arrow.gif')*/}
     .post ul li, .post ol li{margin-top:10px}
     /*--------------------------------*/
     .nav{position:relative;line-height:39px}
@@ -70,8 +69,6 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     /*--------------------------------*/
     .mark{margin-bottom:15px;}
     .mark a{margin-bottom:4px}
-    .archive{padding:10px 10px 5px}
-    .archive a{margin:0 5px 5px 0}
     .error{padding:80px 0}
 /*--------------------------------*/
 #Bottom{border-top: 1px solid rgba(0, 0, 0, 0.22);background: #fff;}
