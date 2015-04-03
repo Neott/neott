@@ -27,7 +27,7 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     .sup,.archive-count,.arrow{font-weight:bold}
     /*--------------------------------*/
     H1,H2,H3,H4,.post p em,.post p strong{font-weight:normal;font-style:normal}
-    H2,H3,H4,.post p,.post ul, .post ol{font-size:14px}
+    H2,H3,.post p,.post ul, .post ol{font-size:14px}
     .nav,.error{text-align:center}
     .post p,center{margin-bottom:20px}
     H1{font-size:24px;padding-top: 10px;}
@@ -78,7 +78,7 @@ table{border-spacing:0;width:100%}
     pre,code{font:12px/1.75em 'Source Code Pro Light',Consolas,Fixedsys,'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;background-color:#272822;color:#DDD}
     pre{overflow:auto;word-wrap:normal}
     code{padding:0;margin:0}
-    p code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #E2E2E2;border-radius:3px;background:#FCFCFC;font-size:13px}
+    p code,ul code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #E2E2E2;border-radius:3px;background:#FCFCFC;font-size:13px}
     /*--------------------------------*/
     pre .comment{color:#969896}
     pre .css .hexcolor{color:#8abeb7}
