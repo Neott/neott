@@ -33,14 +33,12 @@
 
         <span class="date">2014-11-28</span>
     </div>
-    <div class="post">
-        <p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
+    <div class="post"><p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
 <p>打开注册表，打开到：<code>HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics</code>分别改动”MinWidth” 任务栏宽度、”PaddedBorderWidth”边框填充宽度、”BorderWidth”边框宽度，这三项为想要的数值。写成一个注册处理语法：</p>
 <figure class="highlight"><pre><div class="line">Windows Registry Editor <span class="keyword">Version</span> <span class="number">5.00</span></div><div class="line">;边框宽度与任务栏图标的宽度</div><div class="line">[HKEY_CURRENT_USER\<span class="keyword">Control</span> <span class="keyword">Panel</span>\Desktop\WindowMetrics]</div><div class="line"><span class="string">"MinWidth"</span>=<span class="string">"54"</span></div><div class="line"><span class="string">"PaddedBorderWidth"</span>=<span class="string">"0"</span></div><div class="line"><span class="string">"BorderWidth"</span>=<span class="string">"0"</span></div></pre></figure>
 
 <p>经测试，”MinWidth”=”54”为任务栏图标按钮最佳宽度。</p>
-
-    </div>
+</div>
 </div>
 </div>
 <div id="Bottom"><div class="content">

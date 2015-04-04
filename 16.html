@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>给自己的网易云音乐歌单生成外链播放器 | 乱码周刊</title>
+    <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
+    <link rel='stylesheet' href='/style.css' media='screen' type='text/css'>
+</head>
+<body>
+<div id="Top"><div class="content">
+    <div class="home"><a href="/">[乱码周刊]</a></div>
+    <div class="topr"><a href="/">首页</a></li><a href="/mark/">标记</a></li><a href="/archives/">存档</a></li><a href="/about/">关于</a></li></div>
+</div></div>
+<div id="Wrapper">
+    <div class="content main">
+
+    <div class="menu  button">
+        <a href="/">网站首页</a>
+        <span class="arrow">&rsaquo;</span>
+        
+    
+    <a href="/categories/online/">在线应用</a>
+
+        
+    <span class="arrow">&rsaquo;</span>
+    
+    <a href="/tags/网易云音乐/">网易云音乐</a>
+
+        
+    
+          <h1>给自己的网易云音乐歌单生成外链播放器</h1>
+    
+
+        <span class="date">2015-04-04</span>
+    </div>
+    <div class="post"><p>网易云音乐使我现在主要在用的音乐软件，不但客户端满足了Android/IOS/Win/OSX全平台用户同步需求，还提供了320Kbps高品质音频下载，可谓业界良心！并且在管理本地音乐文件方式上也是十分智能。</p>
+<p>在线版的网易云音乐还提供了生成外链播放器，可以把自己喜欢的歌单贴到网页上供分享，但是目前在<code>我的音乐</code>歌单的页面并没有提供这种功能，经过测试，发现只需替换歌单ID即可给自己的歌单生成播放器。</p>
+<h3 id="进入外链播放器">进入外链播放器</h3>
+<p>首先我们进入首页，随意点击推荐的歌单，找到<code>生成外链播放器</code>的按钮：</p>
+<center><img src="https://dn-naog.qbox.me/01501.jpg" alt="进入外链播放器"></center>
+
+<p>比如我们随机进入的歌单网址为：<code>http://music.163.com/#/playlist?id=62175456</code>，那么歌单ID就是<code>62175456</code>，相应，外链播放器的网址为<code>http://music.163.com/#/outchain/0/62175456</code>，那么，提供的两种外链代码为:</p>
+<figure class="highlight"><pre><div class="line">&lt;iframe <span class="variable">frameborder=</span><span class="string">"no"</span> <span class="variable">border=</span><span class="string">"0"</span> <span class="variable">marginwidth=</span><span class="string">"0"</span> <span class="variable">marginheight=</span><span class="string">"0"</span> <span class="variable">width=</span><span class="number">330</span> <span class="variable">height=</span><span class="number">450</span> <span class="variable">src=</span><span class="string">"http://music.163.com/outchain/player?type=0&id=62175456&auto=1&height=430"</span>&gt;&lt;/iframe&gt;</div><div class="line">---------------------</div><div class="line">&lt;embed <span class="variable">src=</span><span class="string">"http://music.163.com/style/swf/widget.swf?sid=62175456&type=0&auto=1&width=310&height=430"</span> <span class="variable">width=</span><span class="string">"330"</span> <span class="variable">height=</span><span class="string">"450"</span>  <span class="variable">allowNetworking=</span><span class="string">"all"</span>&gt;&lt;/embed&gt;</div></pre></figure>
+
+<h3 id="替换自己的歌单ID">替换自己的歌单ID</h3>
+<p>进入自己的（我的）歌单页面，此时网址为<code>http://music.163.com/#/my/m/music/playlist?id=57272014</code>，歌单ID就是<code>57272014</code>，我们只需把上一步外链代码中的<code>62175456</code>替换成<code>57272014</code>即可。</p>
+<center><embed src="http://music.163.com/style/swf/widget.swf?sid=57272014&type=0&auto=1&width=310&height=430" width="330" height="450" allownetworking="all"></center></div>
+</div>
+</div>
+<div id="Bottom"><div class="content">
+    <div class="inner">&copy; 2015 NAOG<b class="snow">·</b>
+        <a href="http://hexo.io/" target="_blank">HEXO</a><b class="snow">·</b>
+        <a href="https://github.com/" target="_blank">GITHUB</a><b class="snow">·</b>
+        <a href="https://gitcafe.com/" target="_blank">GITCAFE</a><b class="snow">·</b>
+        <a href="https://www.v2ex.com/" target="_blank">V2EX</a>
+    </div>
+    <span class="backtop"><a href="javascript:scroll(0,0)">回 到 顶 部</a></span>
+</div></div>
+</body>
+</html>

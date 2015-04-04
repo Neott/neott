@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://xote.tk/"/>
-  <updated>2015-04-03T12:44:48.329Z</updated>
+  <updated>2015-04-04T03:20:27.405Z</updated>
   <id>http://xote.tk/</id>
   
   <author>
@@ -13,6 +13,35 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[给自己的网易云音乐歌单生成外链播放器]]></title>
+    <link href="http://xote.tk/16.html"/>
+    <id>http://xote.tk/16.html</id>
+    <published>2015-04-04T02:36:12.000Z</published>
+    <updated>2015-04-04T03:19:55.404Z</updated>
+    <content type="html"><![CDATA[<p>网易云音乐使我现在主要在用的音乐软件，不但客户端满足了Android/IOS/Win/OSX全平台用户同步需求，还提供了320Kbps高品质音频下载，可谓业界良心！并且在管理本地音乐文件方式上也是十分智能。</p>
+<p>在线版的网易云音乐还提供了生成外链播放器，可以把自己喜欢的歌单贴到网页上供分享，但是目前在<code>我的音乐</code>歌单的页面并没有提供这种功能，经过测试，发现只需替换歌单ID即可给自己的歌单生成播放器。</p>
+<h3 id="进入外链播放器">进入外链播放器</h3>
+<p>首先我们进入首页，随意点击推荐的歌单，找到<code>生成外链播放器</code>的按钮：</p>
+<center><img src="https://dn-naog.qbox.me/01501.jpg" alt="进入外链播放器"></center>
+
+<p>比如我们随机进入的歌单网址为：<code>http://music.163.com/#/playlist?id=62175456</code>，那么歌单ID就是<code>62175456</code>，相应，外链播放器的网址为<code>http://music.163.com/#/outchain/0/62175456</code>，那么，提供的两种外链代码为:</p>
+<figure class="highlight"><pre><div class="line">&lt;iframe <span class="variable">frameborder=</span><span class="string">"no"</span> <span class="variable">border=</span><span class="string">"0"</span> <span class="variable">marginwidth=</span><span class="string">"0"</span> <span class="variable">marginheight=</span><span class="string">"0"</span> <span class="variable">width=</span><span class="number">330</span> <span class="variable">height=</span><span class="number">450</span> <span class="variable">src=</span><span class="string">"http://music.163.com/outchain/player?type=0&id=62175456&auto=1&height=430"</span>&gt;&lt;/iframe&gt;</div><div class="line">---------------------</div><div class="line">&lt;embed <span class="variable">src=</span><span class="string">"http://music.163.com/style/swf/widget.swf?sid=62175456&type=0&auto=1&width=310&height=430"</span> <span class="variable">width=</span><span class="string">"330"</span> <span class="variable">height=</span><span class="string">"450"</span>  <span class="variable">allowNetworking=</span><span class="string">"all"</span>&gt;&lt;/embed&gt;</div></pre></figure>
+
+<h3 id="替换自己的歌单ID">替换自己的歌单ID</h3>
+<p>进入自己的（我的）歌单页面，此时网址为<code>http://music.163.com/#/my/m/music/playlist?id=57272014</code>，歌单ID就是<code>57272014</code>，我们只需把上一步外链代码中的<code>62175456</code>替换成<code>57272014</code>即可。</p>
+<center><embed src="http://music.163.com/style/swf/widget.swf?sid=57272014&type=0&auto=1&width=310&height=430" width="330" height="450" allownetworking="all"></center>]]></content>
+    <summary type="html">
+    <![CDATA[<p>网易云音乐使我现在主要在用的音乐软件，不但客户端满足了Android/IOS/Win/OSX全平台用户同步需求，还提供了320Kbps高品质音频下载，可谓业界良心！并且在管理本地音乐文件方式上也是十分智能。</p>
+<p>在线版的网易云音乐还提供了生成外链播放器，可以把自己]]>
+    </summary>
+    
+      <category term="网易云音乐" scheme="http://xote.tk/tags/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/"/>
+    
+      <category term="在线应用" scheme="http://xote.tk/categories/online/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[利用鼠标右键"发送到"实现快速复制]]></title>
@@ -408,29 +437,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[自主控制自启动软件们]]></title>
-    <link href="http://xote.tk/5.html"/>
-    <id>http://xote.tk/5.html</id>
-    <published>2014-11-27T16:00:00.000Z</published>
-    <updated>2015-03-30T09:54:35.928Z</updated>
-    <content type="html"><![CDATA[<p>经常使用电脑并试用各种软件的我，对自动添加随系统启动的流氓软件深表痛恨，各种流氓软件拍扁了脑袋抢占资源启动自己，开机先卡个两分钟才能使用电脑。但是我只是需要用你们的时候才会打开你们而已，于是乎全部禁用。</p>
-<p>AHK全称Autohotkey，是个自动化的好软件，我虽然不是很精通，但是三两句小白代码足以实现自主控制自启动软件的需要。</p>
-<figure class="highlight"><pre><div class="line">Sleep 3000</div><div class="line">	Run D:<span class="command">\ATOM</span><span class="command">\Listary</span><span class="command">\Listary</span>.exe</div><div class="line">Sleep 5000</div><div class="line">	Run D:<span class="command">\INT</span><span class="command">\ADM</span><span class="command">\ADM</span>.exe</div><div class="line">ExitApp</div></pre></figure>
-
-<p>代码说明：等候3000毫秒启动Listary.exe，再等候5000毫秒启动ADM.exe，再等候5000毫秒启动Dropbox.exe，然后退出自己。最后用AHK自带的”ahk2exe”转换成一个exe文件，并加入到开机自启中即可。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>经常使用电脑并试用各种软件的我，对自动添加随系统启动的流氓软件深表痛恨，各种流氓软件拍扁了脑袋抢占资源启动自己，开机先卡个两分钟才能使用电脑。但是我只是需要用你们的时候才会打开你们而已，于是乎全部禁用。</p>
-<p>AHK全称Autohotkey，是个自动化的好软件，我虽]]>
-    </summary>
-    
-      <category term="AHK" scheme="http://xote.tk/tags/AHK/"/>
-    
-      <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[自定义Win7&8任务栏图标尺寸 顺带减少窗口边框]]></title>
     <link href="http://xote.tk/4.html"/>
     <id>http://xote.tk/4.html</id>
@@ -448,6 +454,29 @@
     </summary>
     
       <category term="注册表" scheme="http://xote.tk/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/"/>
+    
+      <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[自主控制自启动软件们]]></title>
+    <link href="http://xote.tk/5.html"/>
+    <id>http://xote.tk/5.html</id>
+    <published>2014-11-27T16:00:00.000Z</published>
+    <updated>2015-03-30T09:54:35.928Z</updated>
+    <content type="html"><![CDATA[<p>经常使用电脑并试用各种软件的我，对自动添加随系统启动的流氓软件深表痛恨，各种流氓软件拍扁了脑袋抢占资源启动自己，开机先卡个两分钟才能使用电脑。但是我只是需要用你们的时候才会打开你们而已，于是乎全部禁用。</p>
+<p>AHK全称Autohotkey，是个自动化的好软件，我虽然不是很精通，但是三两句小白代码足以实现自主控制自启动软件的需要。</p>
+<figure class="highlight"><pre><div class="line">Sleep 3000</div><div class="line">	Run D:<span class="command">\ATOM</span><span class="command">\Listary</span><span class="command">\Listary</span>.exe</div><div class="line">Sleep 5000</div><div class="line">	Run D:<span class="command">\INT</span><span class="command">\ADM</span><span class="command">\ADM</span>.exe</div><div class="line">ExitApp</div></pre></figure>
+
+<p>代码说明：等候3000毫秒启动Listary.exe，再等候5000毫秒启动ADM.exe，再等候5000毫秒启动Dropbox.exe，然后退出自己。最后用AHK自带的”ahk2exe”转换成一个exe文件，并加入到开机自启中即可。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>经常使用电脑并试用各种软件的我，对自动添加随系统启动的流氓软件深表痛恨，各种流氓软件拍扁了脑袋抢占资源启动自己，开机先卡个两分钟才能使用电脑。但是我只是需要用你们的时候才会打开你们而已，于是乎全部禁用。</p>
+<p>AHK全称Autohotkey，是个自动化的好软件，我虽]]>
+    </summary>
+    
+      <category term="AHK" scheme="http://xote.tk/tags/AHK/"/>
     
       <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
     

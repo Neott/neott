@@ -33,8 +33,7 @@
 
         <span class="date">2015-01-07</span>
     </div>
-    <div class="post">
-        <p>今天又把Hexo折腾了一下，让其可以同时部署到国外的GitHub和国内的Gitcafe，等于是在国内增加了一个镜像，再通过DNSPod智能解析域名，让电信联通教育网的用户访问到托管在GitCafe的Hexo，否则访问到GitHub，一是优化了在国内的速度，二是给数据增加多一个备份。</p>
+    <div class="post"><p>今天又把Hexo折腾了一下，让其可以同时部署到国外的GitHub和国内的Gitcafe，等于是在国内增加了一个镜像，再通过DNSPod智能解析域名，让电信联通教育网的用户访问到托管在GitCafe的Hexo，否则访问到GitHub，一是优化了在国内的速度，二是给数据增加多一个备份。</p>
 <p>实现这个功能首先要在GitCafe获得一个帐号（使用的用户名和邮箱最好与GitHub的一致），添加SSH Key，建立与用户名一样的<code>repo</code>，可以参见之前的小文：<a href="/7.html">快速开始Hexo的正确姿势</a>，其次，我们需要修改Hexo仓库根目录下的<code>_config.yml</code>文件，打开并拉到最后，修改成这个样子（在GitCafe中，需要注意大小写）:</p>
 <figure class="highlight"><pre><div class="line">deploy:</div><div class="line">  <span class="class"><span class="keyword">type</span>: <span class="title">git</span></span></div><div class="line">  repo:</div><div class="line">    github: https:<span class="comment">//github.com/jack/jack.github.io.git,master</span></div><div class="line">    gitcafe: https:<span class="comment">//gitcafe.com/jack/jack.git,gitcafe-pages</span></div></pre></figure>
 
@@ -50,8 +49,7 @@
 <figure class="highlight"><pre><div class="line">machine github.com</div><div class="line">login <span class="literal">user</span></div><div class="line">password userpassword</div><div class="line">machine gitcafe.com</div><div class="line">login <span class="literal">user</span></div><div class="line">password userpassword</div></pre></figure>
 
 <p>此后再部署的时候，就不需要再输入两家的用户和密码了。</p>
-
-    </div>
+</div>
 </div>
 </div>
 <div id="Bottom"><div class="content">
