@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://xote.tk/"/>
-  <updated>2015-04-04T03:31:11.397Z</updated>
+  <updated>2015-04-05T03:45:48.613Z</updated>
   <id>http://xote.tk/</id>
   
   <author>
@@ -349,7 +349,7 @@
     <link href="http://xote.tk/7.html"/>
     <id>http://xote.tk/7.html</id>
     <published>2014-12-23T16:00:00.000Z</published>
-    <updated>2015-03-30T09:54:26.530Z</updated>
+    <updated>2015-04-05T03:45:21.557Z</updated>
     <content type="html"><![CDATA[<p>Hexo是很好的文章管理工具，一经使用我已经爱不释手。看过各种Hexo的安装教程之后，本码盲也成功召唤了一头Hexo坐骑，但是回头想想有些教程的内容过分详细、条例不清晰的原因往往也会给新手（包括我）造成出错的麻烦，于是在此梳理一番（本姿势仅适用于Win平台）。</p>
 <h3 id="开始Hexo前的准备工作">开始Hexo前的准备工作</h3>
 <ol>
@@ -386,7 +386,7 @@
 <p>绑定域名更是简单，只需在<code>source</code>文件夹添加一个<code>CNAME</code>文件，里面写上你的域名，然后在域名解析那里建立<code>CNAME</code>类型解析到<code>jack.github.io.</code>，稍等片刻，即可通过自己的域名访问。</p>
 <p>本文介绍了如何快速开始使用Hexo的过程，到此，想必在看本文的你已经成功拥有一个Hexo博客了。本文只是基本的Hexo搭建和使用说明，同是新手的我，在以后也会作文分享在Hexo的使用中遇到的各种问题，例如自定义主题、备份文章等知识，希望我们都能快乐的使用Hexo。</p>
 <p>评论模块：</p>
-<figure class="highlight"><pre><div class="line">THEMES:<span class="command">\_</span>config.yml fix duoshuo_short_name: duoshuoname</div><div class="line">THEMES:<span class="command">\layout</span><span class="command">\_</span>partia<span class="command">\article</span>.ejs <span class="special">#</span>25 </div><div class="line"> add &lt;<span class="comment">%- partial('comment') %&gt;</span></div></pre></figure>
+<figure class="highlight"><pre><div class="line">THEMES:\<span class="keyword">layout</span>\_partia\article.ejs #<span class="number">22</span></div><div class="line">&lt;% <span class="keyword">if</span> (!index && page.comments){ <span class="variable">%&gt;</span>&lt;<span class="variable">%-</span> partial(<span class="string">'comment'</span>) <span class="variable">%&gt;</span>&lt;% } <span class="variable">%&gt;</span></div></pre></figure>
 
 ]]></content>
     <summary type="html">
@@ -423,29 +423,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[自定义Win7&8任务栏图标尺寸 顺带减少窗口边框]]></title>
-    <link href="http://xote.tk/4.html"/>
-    <id>http://xote.tk/4.html</id>
-    <published>2014-11-27T16:00:00.000Z</published>
-    <updated>2015-03-30T09:53:05.582Z</updated>
-    <content type="html"><![CDATA[<p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
-<p>打开注册表，打开到：<code>HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics</code>分别改动”MinWidth” 任务栏宽度、”PaddedBorderWidth”边框填充宽度、”BorderWidth”边框宽度，这三项为想要的数值。写成一个注册处理语法：</p>
-<figure class="highlight"><pre><div class="line">Windows Registry Editor <span class="keyword">Version</span> <span class="number">5.00</span></div><div class="line">;边框宽度与任务栏图标的宽度</div><div class="line">[HKEY_CURRENT_USER\<span class="keyword">Control</span> <span class="keyword">Panel</span>\Desktop\WindowMetrics]</div><div class="line"><span class="string">"MinWidth"</span>=<span class="string">"54"</span></div><div class="line"><span class="string">"PaddedBorderWidth"</span>=<span class="string">"0"</span></div><div class="line"><span class="string">"BorderWidth"</span>=<span class="string">"0"</span></div></pre></figure>
-
-<p>经测试，”MinWidth”=”54”为任务栏图标按钮最佳宽度。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
-<p>打开注册表，打开到：<code>HKEY_CURRENT]]>
-    </summary>
-    
-      <category term="注册表" scheme="http://xote.tk/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/"/>
-    
-      <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[自主控制自启动软件们]]></title>
     <link href="http://xote.tk/5.html"/>
     <id>http://xote.tk/5.html</id>
@@ -463,6 +440,29 @@
     </summary>
     
       <category term="AHK" scheme="http://xote.tk/tags/AHK/"/>
+    
+      <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[自定义Win7&8任务栏图标尺寸 顺带减少窗口边框]]></title>
+    <link href="http://xote.tk/4.html"/>
+    <id>http://xote.tk/4.html</id>
+    <published>2014-11-27T16:00:00.000Z</published>
+    <updated>2015-03-30T09:53:05.582Z</updated>
+    <content type="html"><![CDATA[<p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
+<p>打开注册表，打开到：<code>HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics</code>分别改动”MinWidth” 任务栏宽度、”PaddedBorderWidth”边框填充宽度、”BorderWidth”边框宽度，这三项为想要的数值。写成一个注册处理语法：</p>
+<figure class="highlight"><pre><div class="line">Windows Registry Editor <span class="keyword">Version</span> <span class="number">5.00</span></div><div class="line">;边框宽度与任务栏图标的宽度</div><div class="line">[HKEY_CURRENT_USER\<span class="keyword">Control</span> <span class="keyword">Panel</span>\Desktop\WindowMetrics]</div><div class="line"><span class="string">"MinWidth"</span>=<span class="string">"54"</span></div><div class="line"><span class="string">"PaddedBorderWidth"</span>=<span class="string">"0"</span></div><div class="line"><span class="string">"BorderWidth"</span>=<span class="string">"0"</span></div></pre></figure>
+
+<p>经测试，”MinWidth”=”54”为任务栏图标按钮最佳宽度。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>新装好的Windows7或Windows8系统，当设置任务栏按钮为”从不合并”的时候，按钮的宽度是自定义调节的，如果同时打开的任务过多，还会挤的不可开交。窗口的边框的宽度也是离谱。这里需要手动改造一下。</p>
+<p>打开注册表，打开到：<code>HKEY_CURRENT]]>
+    </summary>
+    
+      <category term="注册表" scheme="http://xote.tk/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/"/>
     
       <category term="电脑技巧" scheme="http://xote.tk/categories/skill/"/>
     

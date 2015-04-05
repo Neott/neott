@@ -69,7 +69,7 @@
 <p>绑定域名更是简单，只需在<code>source</code>文件夹添加一个<code>CNAME</code>文件，里面写上你的域名，然后在域名解析那里建立<code>CNAME</code>类型解析到<code>jack.github.io.</code>，稍等片刻，即可通过自己的域名访问。</p>
 <p>本文介绍了如何快速开始使用Hexo的过程，到此，想必在看本文的你已经成功拥有一个Hexo博客了。本文只是基本的Hexo搭建和使用说明，同是新手的我，在以后也会作文分享在Hexo的使用中遇到的各种问题，例如自定义主题、备份文章等知识，希望我们都能快乐的使用Hexo。</p>
 <p>评论模块：</p>
-<figure class="highlight"><pre><div class="line">THEMES:<span class="command">\_</span>config.yml fix duoshuo_short_name: duoshuoname</div><div class="line">THEMES:<span class="command">\layout</span><span class="command">\_</span>partia<span class="command">\article</span>.ejs <span class="special">#</span>25 </div><div class="line"> add &lt;<span class="comment">%- partial('comment') %&gt;</span></div></pre></figure>
+<figure class="highlight"><pre><div class="line">THEMES:\<span class="keyword">layout</span>\_partia\article.ejs #<span class="number">22</span></div><div class="line">&lt;% <span class="keyword">if</span> (!index && page.comments){ <span class="variable">%&gt;</span>&lt;<span class="variable">%-</span> partial(<span class="string">'comment'</span>) <span class="variable">%&gt;</span>&lt;% } <span class="variable">%&gt;</span></div></pre></figure>
 
 </div>
 </div>
