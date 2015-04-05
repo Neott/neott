@@ -1,13 +1,13 @@
 *{margin:0;padding:0}
 body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;color:#444;word-break:break-all}
 /*--------------------------------*/
-    .button a{background:#ffffff;border:1px solid #e5e5e5;display:inline-block;border-radius:3px;padding:5px;margin-right:5px;
-            background:-moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
-            background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff),color-stop(50%,#f3f3f3),color-stop(51%,#ededed), color-stop(100%,#ffffff));
-            background:-o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
-            background:-ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
-            background:linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
-            filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 )}
+    .button a{background:#FFF;border:1px solid #e5e5e5;display:inline-block;border-radius:3px;padding:5px;margin-right:5px;
+            background:-moz-linear-gradient(top, #FFF 0%, #f3f3f3 50%, #ededed 51%, #FFF 100%);
+            background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF),color-stop(50%,#f3f3f3),color-stop(51%,#ededed), color-stop(100%,#FFF));
+            background:-o-linear-gradient(top, #FFF 0%,#f3f3f3 50%,#ededed 51%,#FFF 100%);
+            background:-ms-linear-gradient(top, #FFF 0%,#f3f3f3 50%,#ededed 51%,#FFF 100%);
+            background:linear-gradient(top, #FFF 0%,#f3f3f3 50%,#ededed 51%,#FFF 100%);
+            filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF', endColorstr='#FFF',GradientType=0 )}
     .button a:hover{color:#333;border:1px solid #ccc}
     /*--------------------------------*/
     a,a:hover,.post .button a,.post .button a:hover{text-decoration:none}
@@ -78,7 +78,7 @@ table{border-spacing:0;width:100%}
     pre,code{font:12px/1.75em 'Source Code Pro Light',Consolas,Fixedsys,'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;background-color:#272822;color:#DDD}
     pre{overflow:auto;word-wrap:break-word/*normal*/}
     code{padding:0;margin:0}
-    p code,ul code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #E2E2E2;border-radius:3px;background:#FCFCFC;font-size:13px}
+    p code,ul code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #E2E2E2;border-radius:3px;background:#F9F9F9;font-size:13px}
     /*--------------------------------*/
     pre .comment{color:#969896}
     pre .css .hexcolor{color:#8abeb7}

@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://xote.tk/"/>
-  <updated>2015-04-05T03:45:48.613Z</updated>
+  <updated>2015-04-05T04:00:35.900Z</updated>
   <id>http://xote.tk/</id>
   
   <author>
@@ -349,7 +349,7 @@
     <link href="http://xote.tk/7.html"/>
     <id>http://xote.tk/7.html</id>
     <published>2014-12-23T16:00:00.000Z</published>
-    <updated>2015-04-05T03:45:21.557Z</updated>
+    <updated>2015-04-05T04:00:02.200Z</updated>
     <content type="html"><![CDATA[<p>Hexo是很好的文章管理工具，一经使用我已经爱不释手。看过各种Hexo的安装教程之后，本码盲也成功召唤了一头Hexo坐骑，但是回头想想有些教程的内容过分详细、条例不清晰的原因往往也会给新手（包括我）造成出错的麻烦，于是在此梳理一番（本姿势仅适用于Win平台）。</p>
 <h3 id="开始Hexo前的准备工作">开始Hexo前的准备工作</h3>
 <ol>
@@ -378,7 +378,7 @@
 <p>如果你也同样不熟悉Git命令，那么就直接把写好的<code>.md</code>格式的文章丢到<code>\source\_posts</code>文件夹吧，当然你需要在这些文章的页头加上Hexo认识的标记，如本文为例，页头标记是这样的:</p>
 <figure class="highlight"><pre><div class="line"><span class="bullet">---</span></div><div class="line">title: 快速开始Hexo的正确姿势	//标题</div><div class="line">date: 2014-12-24		// 日期</div><div class="line">categories: 代码笔记		//文章分类</div><div class="line">tags: Hexo			//文章tags</div><div class="line"><span class="header">permalink: 7			//文章的url别名</span></div><div class="line">---</div></pre></figure>
 
-<p>写好文章以后，还要通过命令使Hexo来生成文章、部署到GitHub，不过这些命令是在是太简单了:</p>
+<p>写好文章以后，还要通过命令使Hexo来生成文章、部署到GitHub，这些命令太简单了:</p>
 <figure class="highlight"><pre><div class="line">$ hexo g == hexo generate	<span class="comment">//生成</span></div><div class="line">$ hexo d == hexo deploy		<span class="comment">//部署</span></div><div class="line">$ hexo s == hexo <span class="keyword">server</span>		<span class="comment">//本地预览</span></div></pre></figure>
 
 <p>在以上命令中<code>==</code>符号前面是简写命令，后面是完整命令，一般只需要记住<code>g 、d 、s</code>三个就OK了，如果你想本地预览，在输入命令后，打开网址<code>http://localhost:4000/</code> 就可以过过眼瘾先了。一般的Hexo步骤是：写文章 → 生成 → 部署/预览。如果你不用预览，可以输入<code>hexo d -g</code>直接进行生成部署。</p>
