@@ -30,7 +30,7 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     H1,H2,H3,H4,.post p em,.post p strong{font-weight:normal;font-style:normal}
     H2,H3,.post p,.post ul, .post ol{font-size:14px}
     .nav,.error{text-align:center}
-    .post p,center{margin-bottom:20px}
+    .post p,center{margin-bottom:15px}
     H1{font-size:24px;padding-top:10px}
     H3{margin:0 -10px 10px;background:#F3FAFF;border-left:5px solid #c7e8ff}
     H3,.markpage{border-top:1px solid #e2e2e2}
@@ -56,7 +56,6 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     /*--------------------------------*/
     center img{max-width:580px}
     .post{margin:10px 0/*-10px;font-family:Georgia,Arial*/}
-    .post p{line-height:1.6}
     .post p em{background:#98FB98}
     .post p strong{background:#FF0}
     .post blockquote{background:#f8f8f8}
@@ -77,10 +76,10 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
 .snow{margin:0 6px 0 10px;font-weight:bold}
 table{border-spacing:0;width:100%}
 /*--------------------------------*/
-    pre,code{font:12px/1.75em 'Source Code Pro Light',Consolas,Fixedsys,'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;background-color:#272822;color:#DDD}
+    pre,code{font-size:12px;font-family:'Source Code Pro Light',Consolas,Fixedsys,'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino Sans GB',STXihei,STHeiti;background-color:#272822;color:#DDD}
     pre{overflow:auto;word-wrap:break-word/*normal*/}
     code{padding:0;margin:0}
-    p code,ul code{padding:1px 4px;margin:0 5px;color:#555;border:1px solid #E2E2E2;border-radius:3px;background:#F9F9F9;font-size:13px}
+    p code,ul code{padding:0 3px;margin:0 3px;color:#333;border:1px solid #E2E2E2;border-radius:3px;background:#F9F9F9;font-size:13px}
     /*--------------------------------*/
     pre .comment{color:#969896}
     pre .css .hexcolor{color:#8abeb7}
