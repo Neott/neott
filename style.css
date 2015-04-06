@@ -55,7 +55,9 @@ body{font:12px/1.5 'Microsoft Yahei UI Light','Microsoft Yahei',Tahoma,'Hiragino
     .meta,.meta a{color:#BBB}
     /*--------------------------------*/
     center img{max-width:580px}
-    .post{margin:10px 0/*-10px;font-family:Georgia,Arial*/}
+    .post{margin:10px 0/*-10px*/}
+    .post p{line-height:2}
+    .post p,.post ul li, .post ol li{font-family:Georgia,Arial}
     .post p em{background:#98FB98}
     .post p strong{background:#FF0}
     .post blockquote{background:#f8f8f8}
