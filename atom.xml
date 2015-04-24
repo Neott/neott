@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://xote.tk/"/>
-  <updated>2015-04-06T06:39:13.439Z</updated>
+  <updated>2015-04-24T11:46:33.253Z</updated>
   <id>http://xote.tk/</id>
   
   <author>
@@ -15,11 +15,33 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[解决Chrome42下Mactype渲染异常]]></title>
+    <link href="http://xote.tk/17.html"/>
+    <id>http://xote.tk/17.html</id>
+    <published>2015-04-24T06:20:24.000Z</published>
+    <updated>2015-04-24T06:43:01.379Z</updated>
+    <content type="html"><![CDATA[<p>版本狂魔Chrome把版本更新到了42.0.2311.90，我是从Chrome40直接升级上来的，升级过来以后发现软件界面的文字不能被Mactype渲染了。</p>
+<p>在Chrome42中，在<code>chrome://flags/</code>中启用了<code>停用DirectWrite</code>之后，页面文字会正常渲染，但浏览器自身的UI界面渲染失败，经过搜索，找到了解决方案。</p>
+<p>首先建立一个Chrome的快捷方式，在目标项中chrome.exe后加入一段字符<code>--disable-directwrite-for-ui</code>，再使用Chrome的时候，通过这个快捷方式打开即可。还可以直接把这个快捷方式拉到任务栏上。</p>
+<p>如果使用的是绿色版的Chrome，找到目录下的<code>GreenChrome.ini</code>，在<code>[追加参数]</code>下另起一行写上<code>--disable-directwrite-for-ui</code>即可。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>版本狂魔Chrome把版本更新到了42.0.2311.90，我是从Chrome40直接升级上来的，升级过来以后发现软件界面的文字不能被Mactype渲染了。</p>
+<p>在Chrome42中，在<code>chrome://flags/</code>中启用了<code>停]]>
+    </summary>
+    
+      <category term="Mactype" scheme="http://xote.tk/tags/Mactype/"/>
+    
+      <category term="善用佳软" scheme="http://xote.tk/categories/software/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[给自己的网易云音乐歌单生成外链播放器]]></title>
     <link href="http://xote.tk/16.html"/>
     <id>http://xote.tk/16.html</id>
     <published>2015-04-04T02:36:12.000Z</published>
-    <updated>2015-04-04T03:19:55.404Z</updated>
+    <updated>2015-04-24T06:21:21.136Z</updated>
     <content type="html"><![CDATA[<p>网易云音乐使我现在主要在用的音乐软件，不但客户端满足了Android/IOS/Win/OSX全平台用户同步需求，还提供了320Kbps高品质音频下载，可谓业界良心！并且在管理本地音乐文件方式上也是十分智能。</p>
 <p>在线版的网易云音乐还提供了生成外链播放器，可以把自己喜欢的歌单贴到网页上供分享，但是目前在<code>我的音乐</code>歌单的页面并没有提供这种功能，经过测试，发现只需替换歌单ID即可给自己的歌单生成播放器。</p>
 <h3 id="进入外链播放器">进入外链播放器</h3>
